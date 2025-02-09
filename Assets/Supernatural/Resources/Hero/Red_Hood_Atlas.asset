@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Red_Hood_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 8c8a2bd6457c20c4686a8f4973f3eb6a, type: 3}
+  materials:
+  - {fileID: 2100000, guid: d3149aec469d1a74b917fa7f9b0e430d, type: 2}
+  - {fileID: 2100000, guid: 6148f7d570b37554ba7d9d9264af0a4d, type: 2}
+  - {fileID: 2100000, guid: 9119c60eb5bc1c545babee1916a79c02, type: 2}

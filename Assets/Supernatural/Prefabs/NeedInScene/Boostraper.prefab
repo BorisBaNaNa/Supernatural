@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4307585346662287354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4307585346662287355}
+  - component: {fileID: 4307585346662287352}
+  m_Layer: 0
+  m_Name: Boostraper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307585346662287355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4307585346662287354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4307585346662287352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4307585346662287354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540b8de5abf1eac4db268910885b0cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerPrefabs:
+  - {fileID: 4663989067573361781, guid: 078b4e0dcb1df774997f3bc08c0d4741, type: 3}
+  _projectilePrefab: {fileID: 5193103851577299235, guid: cd4ebc00e268f6d4cb3942e96842b542, type: 3}
+  _soundManagerPrefab: {fileID: 3844824364995474291, guid: eced66aff8ac2c34783715a68405606c, type: 3}
+  _gameManagerPrefab: {fileID: 2327334521279739681, guid: 76561b22561ae4043bf0012a75971add, type: 3}
+  _floatingTextPrefab: {fileID: -6475487296856933960, guid: 4e70100ed8747064188466fd9a7269f7, type: 3}

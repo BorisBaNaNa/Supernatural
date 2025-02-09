@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1bae098b8af5f545b5145c4a4f67d24
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Walk: {fileID: 11400000, guid: f601bbd89aaee9a4caf9daa07761f6cd, type: 2}
+  - RangeAttack: {fileID: 11400000, guid: 54b70cbb74b063c4aaf8267efc6e4492, type: 2}
+  - MeleeAttack: {fileID: 11400000, guid: af2d4470d9303084d9bcd498fbf26e62, type: 2}
+  - Death: {fileID: 11400000, guid: a11079ff0d0a4df45bcc93fd3459b037, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,278 @@
+
+band11.png
+size: 4046,3637
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BODY
+  rotate: false
+  xy: 1674, 962
+  size: 1063, 941
+  orig: 1063, 941
+  offset: 0, 0
+  index: -1
+BODY_11
+  rotate: false
+  xy: 2739, 962
+  size: 1063, 941
+  orig: 1063, 941
+  offset: 0, 0
+  index: -1
+BODY_111
+  rotate: false
+  xy: 2, 296
+  size: 1063, 941
+  orig: 1063, 941
+  offset: 0, 0
+  index: -1
+BODY_2
+  rotate: false
+  xy: 1067, 2
+  size: 1178, 958
+  orig: 1178, 958
+  offset: 0, 0
+  index: -1
+BODY_22
+  rotate: false
+  xy: 2247, 2
+  size: 1178, 958
+  orig: 1178, 958
+  offset: 0, 0
+  index: -1
+HAND L
+  rotate: true
+  xy: 2, 2032
+  size: 477, 553
+  orig: 477, 553
+  offset: 0, 0
+  index: -1
+HAND L_11
+  rotate: true
+  xy: 557, 1961
+  size: 477, 553
+  orig: 477, 553
+  offset: 0, 0
+  index: -1
+HAND L_111
+  rotate: true
+  xy: 1112, 1950
+  size: 477, 553
+  orig: 477, 553
+  offset: 0, 0
+  index: -1
+HAND L_2
+  rotate: true
+  xy: 2, 2511
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND L_22
+  rotate: true
+  xy: 1762, 2414
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND L_222
+  rotate: true
+  xy: 2904, 2399
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND L_3
+  rotate: true
+  xy: 1191, 2429
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND L_33
+  rotate: true
+  xy: 2333, 2412
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND L_333
+  rotate: true
+  xy: 3475, 2399
+  size: 440, 569
+  orig: 440, 569
+  offset: 0, 0
+  index: -1
+HAND R
+  rotate: true
+  xy: 1667, 1920
+  size: 492, 635
+  orig: 492, 635
+  offset: 0, 0
+  index: -1
+HAND R_11
+  rotate: true
+  xy: 2304, 1905
+  size: 492, 635
+  orig: 492, 635
+  offset: 0, 0
+  index: -1
+HAND R_111
+  rotate: true
+  xy: 2941, 1905
+  size: 492, 635
+  orig: 492, 635
+  offset: 0, 0
+  index: -1
+HAND R_2
+  rotate: true
+  xy: 614, 2871
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+HAND R_22
+  rotate: true
+  xy: 1850, 2856
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+HAND R_222
+  rotate: true
+  xy: 3086, 2841
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+HAND R_3
+  rotate: true
+  xy: 1232, 2871
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+HAND R_33
+  rotate: true
+  xy: 2468, 2854
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+HAND R_333
+  rotate: true
+  xy: 573, 2440
+  size: 429, 616
+  orig: 429, 616
+  offset: 0, 0
+  index: -1
+LEG L
+  rotate: true
+  xy: 2247, 3287
+  size: 348, 587
+  orig: 348, 587
+  offset: 0, 0
+  index: -1
+LEG L_2
+  rotate: true
+  xy: 2836, 3285
+  size: 350, 546
+  orig: 350, 546
+  offset: 0, 0
+  index: -1
+LEG L_3
+  rotate: true
+  xy: 2, 3324
+  size: 311, 546
+  orig: 311, 546
+  offset: 0, 0
+  index: -1
+LEG R
+  rotate: true
+  xy: 2, 2953
+  size: 366, 610
+  orig: 366, 610
+  offset: 0, 0
+  index: -1
+LEG R_2
+  rotate: true
+  xy: 3384, 3272
+  size: 363, 566
+  orig: 363, 566
+  offset: 0, 0
+  index: -1
+LEG R_3
+  rotate: true
+  xy: 550, 3321
+  size: 314, 566
+  orig: 314, 566
+  offset: 0, 0
+  index: -1
+automate
+  rotate: false
+  xy: 2, 1239
+  size: 1670, 679
+  orig: 1670, 679
+  offset: 0, 0
+  index: -1
+knife
+  rotate: false
+  xy: 1118, 3302
+  size: 1127, 333
+  orig: 1127, 333
+  offset: 0, 0
+  index: -1
+
+band112.png
+size: 3651,3113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BODY_222
+  rotate: true
+  xy: 1464, 1933
+  size: 1178, 958
+  orig: 1178, 958
+  offset: 0, 0
+  index: -1
+BODY_3
+  rotate: false
+  xy: 2595, 2076
+  size: 1054, 1035
+  orig: 1054, 1035
+  offset: 0, 0
+  index: -1
+BODY_33
+  rotate: false
+  xy: 2595, 1039
+  size: 1054, 1035
+  orig: 1054, 1035
+  offset: 0, 0
+  index: -1
+BODY_333
+  rotate: false
+  xy: 2595, 2
+  size: 1054, 1035
+  orig: 1054, 1035
+  offset: 0, 0
+  index: -1
+HEAD
+  rotate: false
+  xy: 2, 1604
+  size: 1460, 1507
+  orig: 1460, 1507
+  offset: 0, 0
+  index: -1
+HEAD_2
+  rotate: false
+  xy: 2, 98
+  size: 1341, 1504
+  orig: 1341, 1504
+  offset: 0, 0
+  index: -1
+HEAD_3
+  rotate: false
+  xy: 1345, 98
+  size: 1248, 1504
+  orig: 1248, 1504
+  offset: 0, 0
+  index: -1
