@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using static UnityEngine.InputSystem.InputAction;
 
 namespace Assets.Supernatural.Scripts.Player
 {
@@ -23,7 +24,7 @@ namespace Assets.Supernatural.Scripts.Player
         [Header("Moving")]
         [SerializeField] private float moveSpeed = 3;
 
-        [Header("Jump")]
+        [Header("OnJumpPerformed")]
         [SerializeField] private float JumpDelay = 0.1f;
         [SerializeField] private float MaxJumpHeight = 3;
         [SerializeField] private float MinJumpHeight = 1;
@@ -59,56 +60,56 @@ namespace Assets.Supernatural.Scripts.Player
         private float accelerationTimeAirborne = .2f;
         private float accelerationTimeGrounded = .1f;
         private Controller2D controller;
-        private InputActions _inputs;
-        private PlayerStateMachine _stateMachine;
-
-        public void Awake()
-        {
-            Initialize();
-        }
-
-        public void Start()
-        {
-            SubscribeInputs();
-        }
+        private IPlayerInputController _playerInputs;
+        private bool _isInit;
+        //private PlayerStateMachine _stateMachine;
 
         public void OnEnable()
         {
-            _inputs.Player.Move.Enable();
+            if (!_isInit) 
+                return;
+
+            _playerInputs.EnableMovement();
+            //_playerInputs.Player.Move.Enable();
         }
 
-        public void OnDisable()
+        public void Update()
         {
-            _inputs.Player.Move.Disable();
-        }
-
-        private void Initialize()
-        {
-            _inputs = new InputActions();
-
-            //_stateMachine = new(this);
-            _stateMachine.StateSwitch<IdleState>();
-        }
-
-        private void SubscribeInputs()
-        {
-            _inputs.Player.Jump.performed += _ => Jump();
-            _inputs.Player.Jump.canceled += _ => JumpOff();
-        }
-
-        public void MoveLogic()
-        {
-#if !UNITY_ANDROID
             HandleInput();
-#endif
             ConfigureMove();
 
             CalculateVelocity();
             CheckLand();
 
-            _stateMachine.CurrentAction?.Invoke();
+            //_stateMachine.CurrentAction?.Invoke();
             Move();
-            _stateMachine.StateControl();
+            //_stateMachine.StateControl();
+        }
+
+        public void OnDisable()
+        {
+            _playerInputs.DisableMovement();
+            //_playerInputs.Player.Move.Disable();
+        }
+
+        private void OnDestroy()
+        {
+            _playerInputs.OnJumpPerformed -= Jump;
+            _playerInputs.OnJumpOffPerformed -= JumpOff;
+        }
+
+        public void Initialize(IPlayerInputController inputs)
+        {
+            _playerInputs = inputs;
+            _playerInputs.EnableMovement();
+            _playerInputs.OnJumpPerformed += Jump;
+            _playerInputs.OnJumpOffPerformed += JumpOff;
+
+            controller = GetComponent<Controller2D>();
+            _gravity = -(2 * MaxJumpHeight) / Mathf.Pow(TimeToJumpApex, 2);
+            _isInit = true;
+            //_stateMachine = new(this);
+            //_stateMachine.StateSwitch<IdleState>();
         }
 
         public void SetDamageImpulse(Transform instigator)
@@ -135,8 +136,8 @@ namespace Assets.Supernatural.Scripts.Player
         public void Jump()
         {
             controller.IsJumpKeyPressed = true;
-            if (_moveDir.y >= 0)
-                _stateMachine.StateSwitch<JumpState>();
+            //if (_moveDir.y >= 0)
+            //    _stateMachine.StateSwitch<JumpState>();
         }
 
         public void JumpOff()
@@ -154,10 +155,7 @@ namespace Assets.Supernatural.Scripts.Player
             velocity.y += _gravity * Time.deltaTime;
         }
 
-#if !UNITY_ANDROID
-        private void HandleInput() =>
-            _moveDir = _inputs.Player.Move.ReadValue<Vector2>();
-#endif
+        private void HandleInput() => _moveDir = _playerInputs.ReadMovementInput();
 
         private void ConfigureMove()
         {

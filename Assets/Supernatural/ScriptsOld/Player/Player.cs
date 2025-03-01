@@ -17,7 +17,7 @@ public partial class Player : MonoBehaviour, ICanTakeDamage
     private float accelerationTimeAirborne = .2f;
     private float accelerationTimeGrounded = .1f;
 
-    [Header("Jump")]
+    [Header("OnJumpPerformed")]
     public float JumpDelay = 0.1f;
     public float MaxJumpHeight = 3;
     public float MinJumpHeight = 1;
@@ -125,19 +125,19 @@ public partial class Player : MonoBehaviour, ICanTakeDamage
 
     public void OnEnable()
     {
-        _inputs.Player.Enable();
+        //_inputs.Player.Enable();
     }
 
     public void OnDisable()
     {
-        _inputs.Player.Disable();
+        //_inputs.Player.Disable();
     }
 
     #region Init
     private void Initialize()
     {
         controller = GetComponent<Controller2D>();
-        _inputs = new InputActions();
+        //_inputs = new InputActions();
 
         _stateMachine = new PlayerStateMachine(this);
         _stateMachine.StateSwitch<IdleState>();
@@ -147,10 +147,10 @@ public partial class Player : MonoBehaviour, ICanTakeDamage
 
     private void InitInputs()
     {
-        _inputs.Player.Jump.performed += _ => Jump();
-        _inputs.Player.Jump.canceled += _ => JumpOff();
-        _inputs.Player.RangeAttack.performed += _ => RangeAttack();
-        _inputs.Player.MeleeAttack.performed += _ => MeleeAttack();
+        //_inputs.Player.Jump.performed += _ => Jump();
+        //_inputs.Player.Jump.canceled += _ => JumpOff();
+        //_inputs.Player.RangeAttack.performed += _ => RangeAttack();
+        //_inputs.Player.MeleeAttack.performed += _ => MeleeAttack();
     }
 
     private void FillingFields()
@@ -254,7 +254,7 @@ public partial class Player : MonoBehaviour, ICanTakeDamage
 
     #if !UNITY_ANDROID
     private void HandleInput() =>
-        _moveDir = _inputs.Player.Move.ReadValue<Vector2>();
+        _moveDir = Vector2.zero/*_inputs.Player.Move.ReadValue<Vector2>()*/;
     #endif
 
     private void ConfigureMove()

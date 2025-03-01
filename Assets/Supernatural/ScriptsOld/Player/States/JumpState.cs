@@ -70,6 +70,6 @@ public class JumpState : IState, IService
         _player.Gravity = -(2 * _player.MaxJumpHeight) / Mathf.Pow(_player.TimeToJumpApex, 2);
         _maxJumpVelocity = Mathf.Abs(_player.Gravity) * _player.TimeToJumpApex;
         _minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(_player.Gravity) * _player.MinJumpHeight);
-        //		print ("Gravity: " + gravity + "  Jump Velocity: " + maxJumpVelocity);
+        //		print ("Gravity: " + gravity + "  OnJumpPerformed Velocity: " + maxJumpVelocity);
     }
 }

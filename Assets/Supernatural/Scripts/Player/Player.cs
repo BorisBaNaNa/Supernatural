@@ -1,132 +1,93 @@
-﻿using System;
+﻿using Assets.Supernatural.Scripts.Infrastructure;
+using Assets.Supernatural.Scripts.Infrastructure.Services;
+using SoundSystem.Scripts.Infrastructure.Manages;
 using UnityEngine;
-using UnityEngine.InputSystem.XR;
+using UnityEngine.InputSystem;
 using UnityEngine.Windows;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 namespace Assets.Supernatural.Scripts.Player
 {
-    [RequireComponent(typeof(Controller2D), typeof(AudioSource))]
-    public partial class Player : MonoBehaviour, ICanTakeDamage
+    [RequireComponent(typeof(PleyerHealthController), typeof(PlayerMovementController), typeof(PlayerAttackController))]
+    public partial class Player : MonoBehaviour, ICanTakeDamage, ICanTakeHealth
     {
-        #region Inspector
-        public string CurrentState;
-        public bool GodMode;
-
+        [SerializeField] private PleyerHealthController _healthController;
         [SerializeField] private PlayerMovementController _movementController;
+        [SerializeField] private PlayerAttackController _attackController;
 
-        [Header("Health")]
-        public int maxHealth;
-        public int Health { get; set; }
-        public GameObject HurtEffect;
-
-        [Header("Sound")]
-        public AudioClip jumpSound;
-        public AudioClip landSound;
-        public AudioClip WalkSound;
-        public AudioClip wallSlideSound;
-        public AudioClip hurtSound;
-        public AudioClip deadSound;
-        public AudioClip rangeAttackSound;
-        public AudioClip meleeAttackSound;
-
-        [Header("Option")]
-        public bool allowMeleeAttack;
-        public bool allowRangeAttack;
-        [Range(0.01f, 1)]
-        public float MinActiveStateTime = 0.1f;
-        #endregion
-
-        public PlayerWeapon CurrentWeapon { get; set; } = PlayerWeapon.None;
-        public AudioSource SoundFx { get; private set; }
-
-        private PlayerStateMachine _stateMachine;
-        private InputActions _inputs;
+        private AudioSource _soundFxSource;
+        private SoundGroupsController _soundController;
+        private IPlayerInputController _inputController;
+        //private PlayerStateMachine _stateMachine;
 
         public void Awake()
         {
+            _healthController.OnDie += Kill;
+
             Initialize();
         }
 
-        public void Start()
+        public void OnEnable()
         {
-            FillingFields();
-
-            _inputs.Player.RangeAttack.performed += _ => RangeAttack();
-            _inputs.Player.MeleeAttack.performed += _ => MeleeAttack();
+            _inputController.Enable();
         }
 
-        public void Update()
+        public void OnDisable()
         {
-            _movementController.MoveLogic();
+            _inputController.Disable();
+        }
+
+        public void OnDestroy()
+        {
+            _healthController.OnDie -= Kill;
         }
 
         #region Init
         private void Initialize()
         {
-            _inputs = new InputActions();
-            SoundFx = GetComponent<AudioSource>();
+            InitializeSoundSystem();
+            _healthController.Initialize();
+
+            _inputController = ServiceLocator.GetService<IPlayerInputController>();
+            _inputController.Initialize();
+            _movementController.Initialize(_inputController);
+            _attackController.Initialize(_inputController);
         }
 
-        private void FillingFields()
+        private void InitializeSoundSystem()
         {
-            Health = maxHealth;
-            SoundFx.clip = wallSlideSound;
+            //_soundController = ServiceLocator.GetService<SoundGroupsService>().SoundGroupsController;
+            //_soundFxSource = _soundController.CreateAudioSource(SoundSystem.Scripts.Infrastructure.SoundGroups.Sound, gameObject);
         }
         #endregion
 
-        #region API
-
-        public void MeleeAttack()
+        public void TakeDamage(float damage, Vector2 force, GameObject instigator)//Нах тут forceDir??????
         {
-            if (allowMeleeAttack)
-                _stateMachine.StateSwitch<MelleAttackState>();
+            //_stateMachine.StateSwitch<TakeDamageState>();
+            _healthController.TakeDamage(damage);
+            _movementController.SetDamageImpulse(instigator.transform);
         }
 
-        public void RangeAttack()
+        public void TakeHealth(int takenHearth)
         {
-            if (allowRangeAttack)
-                _stateMachine.StateSwitch<RangeAttackState>();
+            _healthController.TakeHealth(takenHearth);
         }
 
         public void RespawnAt(Vector2 pos)
         {
             transform.position = pos;
 
-            _stateMachine.StateSwitch<RespawnState>();
+            //_stateMachine.StateSwitch<RespawnState>();
         }
 
-        public void TakeDamage(float damage, Vector2 forceDir, GameObject instigator)
+        public void Kill()
         {
-            if (CurrentState == "DeathState")
-                return;
-
-            _stateMachine.StateSwitch<TakeDamageState>();
-
-            if (GodMode)
-                return;
-
-            Health -= (int)damage;
-
-            if (Health <= 0)
-                Kill();
-
-            if (forceDir.x == 0 && forceDir.y == 0)
-                return;
-
-            _movementController.SetDamageImpulse(instigator.transform);
+            //_stateMachine.StateSwitch<DeathState>();
         }
 
-        public void GiveHealth(int hearthToGive, GameObject instigator)
+        public void GameFinish()
         {
-            Health = Mathf.Min(Health + hearthToGive, maxHealth);
-            //GameManager.Instance.ShowFloatingText("+" + hearthToGive, transform.position, Color.red);
+            //_stateMachine.StateSwitch<FinishState>();
         }
-
-        public void Kill() =>
-            _stateMachine.StateSwitch<DeathState>();
-
-        public void GameFinish() =>
-            _stateMachine.StateSwitch<FinishState>();
-        #endregion
     }
 }
