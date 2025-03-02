@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using static UnityEngine.InputSystem.InputAction;
+﻿using Assets.Supernatural.Scripts.Interfaces;
+using UnityEngine;
 
-namespace Assets.Supernatural.Scripts.Player
+namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PlayerAttackController : MonoBehaviour
     {

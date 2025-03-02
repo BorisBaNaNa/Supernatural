@@ -1,5 +1,3 @@
-using Assets.Supernatural.Scripts.Infrastructure;
-using Assets.Supernatural.Scripts.Player;
 using Cinemachine;
 using System;
 using System.Collections;
@@ -13,7 +11,6 @@ public class Boostraper : MonoBehaviour
     [SerializeField] private SoundManager _soundManagerPrefab;
     [SerializeField] private GameManager _gameManagerPrefab;
     [SerializeField] private FloatingText _floatingTextPrefab;
-    [SerializeField] private UIPlayerController _uIPlayerController;
 
     private GameStateMachine _stateMachine;
     private GameManager _gameManager;
@@ -31,9 +28,6 @@ public class Boostraper : MonoBehaviour
         InitializeServices();
         InitializeGame();
         _stateMachine.StateSwitch<BoostraperState>();
-
-        //ServiceLocator.RegService<IPlayerInputController>(new KeyBoardPlayerController());
-        ServiceLocator.RegService<IPlayerInputController>(_uIPlayerController);
     }
 
     private void InitializeGame()

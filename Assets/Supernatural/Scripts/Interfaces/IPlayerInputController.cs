@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Supernatural.Scripts.Player
+namespace Assets.Supernatural.Scripts.Interfaces
 {
-    public interface IPlayerInputController : Assets.Supernatural.Scripts.Infrastructure.IService
+    public interface IPlayerInputController : IService
     {
         event Action OnJumpPerformed;
         event Action OnJumpOffPerformed;

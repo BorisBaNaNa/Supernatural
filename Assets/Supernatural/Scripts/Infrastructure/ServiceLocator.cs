@@ -1,4 +1,5 @@
 using UnityEngine;
+using Assets.Supernatural.Scripts.Interfaces;
 
 namespace Assets.Supernatural.Scripts.Infrastructure
 {
@@ -24,9 +25,4 @@ namespace Assets.Supernatural.Scripts.Infrastructure
             public static TService Instance;
         }
     }
-
-    public interface IService
-    {
-        void Dispose();
-    };
 }

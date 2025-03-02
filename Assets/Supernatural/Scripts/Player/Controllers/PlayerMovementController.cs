@@ -1,7 +1,8 @@
-﻿using UnityEngine;
-using static UnityEngine.InputSystem.InputAction;
+﻿using Assets.Supernatural.Scripts.Interfaces;
+using Assets.Supernatural.Scripts.Player.Controllers.Controller2D;
+using UnityEngine;
 
-namespace Assets.Supernatural.Scripts.Player
+namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PlayerMovementController : MonoBehaviour
     {
@@ -18,8 +19,8 @@ namespace Assets.Supernatural.Scripts.Player
             }
         }
 
-        [Header("Animations")]
-        [SerializeField] private PlayerAnimController AnimController;
+        //[Header("Animations")]
+        //[SerializeField] private PlayerAnimController AnimController;
 
         [Header("Moving")]
         [SerializeField] private float moveSpeed = 3;
@@ -59,14 +60,14 @@ namespace Assets.Supernatural.Scripts.Player
 
         private float accelerationTimeAirborne = .2f;
         private float accelerationTimeGrounded = .1f;
-        private Controller2D controller;
+        private PlayerController2D controller;
         private IPlayerInputController _playerInputs;
         private bool _isInit;
         //private PlayerStateMachine _stateMachine;
 
         public void OnEnable()
         {
-            if (!_isInit) 
+            if (!_isInit)
                 return;
 
             _playerInputs.EnableMovement();
@@ -105,7 +106,7 @@ namespace Assets.Supernatural.Scripts.Player
             _playerInputs.OnJumpPerformed += Jump;
             _playerInputs.OnJumpOffPerformed += JumpOff;
 
-            controller = GetComponent<Controller2D>();
+            controller = GetComponent<PlayerController2D>();
             _gravity = -(2 * MaxJumpHeight) / Mathf.Pow(TimeToJumpApex, 2);
             _isInit = true;
             //_stateMachine = new(this);
@@ -143,7 +144,7 @@ namespace Assets.Supernatural.Scripts.Player
         public void JumpOff()
         {
             controller.IsJumpKeyPressed = false;
-            AllServices.Instance.GetService<JumpState>().JumpOff();
+            //AllServices.Instance.GetService<JumpState>().JumpOff();
         }
 
         public void Flip() =>

@@ -1,4 +1,3 @@
-using Assets.Supernatural.Scripts.Player;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIPlayerController : MonoBehaviour, IPlayerInputController
+public class UIPlayerController : MonoBehaviour
 {
     public event Action OnJumpPerformed;
     public event Action OnJumpOffPerformed;

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Supernatural.Scripts.Player
+namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PleyerHealthController : MonoBehaviour
     {

@@ -1,10 +1,8 @@
 ﻿using Assets.Supernatural.Scripts.Infrastructure;
-using Assets.Supernatural.Scripts.Infrastructure.Services;
+using Assets.Supernatural.Scripts.Interfaces;
+using Assets.Supernatural.Scripts.Player.Controllers;
 using SoundSystem.Scripts.Infrastructure.Manages;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Windows;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 namespace Assets.Supernatural.Scripts.Player
 {

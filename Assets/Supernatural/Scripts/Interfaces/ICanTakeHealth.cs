@@ -1,4 +1,4 @@
-﻿namespace Assets.Supernatural.Scripts.Player
+﻿namespace Assets.Supernatural.Scripts.Interfaces
 {
     public interface ICanTakeHealth
     {

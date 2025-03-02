@@ -1,3 +1,4 @@
+using Assets.Supernatural.Scripts.Interfaces;
 using SoundSystem.Scripts.Infrastructure.Manages;
 using SoundSystem.Scripts.ScriptableObjects;
 using UnityEngine;

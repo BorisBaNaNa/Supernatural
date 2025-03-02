@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 4114972512277188562}
   - component: {fileID: 5882905936941134422}
   - component: {fileID: 5388150403883303561}
-  - component: {fileID: 2240962664297008508}
+  - component: {fileID: 4590314173724648015}
   - component: {fileID: 5818214537921462280}
-  - component: {fileID: 2398010219908915777}
-  - component: {fileID: 5970847229870988543}
+  - component: {fileID: 1398368392712856528}
+  - component: {fileID: 1075703450430850688}
   - component: {fileID: 8602941991198506086}
   - component: {fileID: 2922830797661358871}
   m_Layer: 3
@@ -86,7 +86,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 229f523a2b6246a47b2fac715aef34f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimController: {fileID: 6835567782682972989}
   moveSpeed: 3
   JumpDelay: 0.1
   MaxJumpHeight: 3
@@ -102,7 +101,7 @@ MonoBehaviour:
   wallStickTime: 0.25
   MinVelosityForLand: 3
   allowSlideWall: 0
---- !u!114 &2240962664297008508
+--- !u!114 &4590314173724648015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 397053974679526441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ce9489c9799aa24f898217126b045b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b40f98cf3dbdda408c26f3b04821194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collisionMask:
@@ -139,9 +138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a96426066f049ec47ab52454324c28d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rangeAttack: {fileID: 2398010219908915777}
-  _meleeAttack: {fileID: 5970847229870988543}
---- !u!114 &2398010219908915777
+  _rangeAttack: {fileID: 1398368392712856528}
+  _meleeAttack: {fileID: 1075703450430850688}
+--- !u!114 &1398368392712856528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,14 +149,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 397053974679526441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dfd396c35c864d46ab73356a2ce1f92, type: 3}
+  m_Script: {fileID: 11500000, guid: dd0a20c6219ddca48affc92252990a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 7264003379643517329}
   fireDelay: 0.1
-  fireRate: 0.3
+  fireRate: 0.5
   inverseDirection: 0
---- !u!114 &5970847229870988543
+--- !u!114 &1075703450430850688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,7 +165,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 397053974679526441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fbf53c74a72b2441bbda158da6289bd, type: 3}
+  m_Script: {fileID: 11500000, guid: dce94e65c16db96488783b5ffa9efe40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionMask:

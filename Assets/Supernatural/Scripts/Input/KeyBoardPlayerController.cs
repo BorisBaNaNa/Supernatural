@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Assets.Supernatural.Scripts.Interfaces;
+using System;
 using UnityEngine;
 using static UnityEngine.InputSystem.InputAction;
 
-namespace Assets.Supernatural.Scripts.Player
+namespace Assets.Supernatural.Scripts.Input
 {
     public class KeyBoardPlayerController : IPlayerInputController
     {
