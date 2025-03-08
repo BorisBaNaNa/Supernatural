@@ -1,0 +1,3640 @@
+fileFormatVersion: 2
+guid: 4ec50496589e41d44b8755a24ff4a8ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4188207634028497659
+    second: Dyn_0
+  - first:
+      213: 7191018063891686189
+    second: Dyn_1
+  - first:
+      213: -7906838268164624035
+    second: Dyn_2
+  - first:
+      213: -3794288201838610106
+    second: Dyn_3
+  - first:
+      213: 6244065377174568169
+    second: Dyn_4
+  - first:
+      213: 235161562713896769
+    second: Dyn_5
+  - first:
+      213: -660741940317582005
+    second: Dyn_6
+  - first:
+      213: 6635034491761704783
+    second: Dyn_7
+  - first:
+      213: 6256407243468235755
+    second: Dyn_8
+  - first:
+      213: -28906613111183059
+    second: Dyn_9
+  - first:
+      213: 1714016731148696522
+    second: Dyn_10
+  - first:
+      213: -5167133797588046156
+    second: Dyn_11
+  - first:
+      213: -2183946271940956482
+    second: Dyn_12
+  - first:
+      213: -5416379312926754252
+    second: Dyn_13
+  - first:
+      213: -455941239081872040
+    second: Dyn_14
+  - first:
+      213: 1432001344793133121
+    second: Dyn_15
+  - first:
+      213: -7179477123789336665
+    second: Dyn_16
+  - first:
+      213: 7073176527336571250
+    second: Dyn_17
+  - first:
+      213: 7686624686242067107
+    second: Dyn_18
+  - first:
+      213: -3976727997318595193
+    second: Dyn_19
+  - first:
+      213: -8223229146943970249
+    second: Dyn_20
+  - first:
+      213: 9133880929255627129
+    second: Dyn_21
+  - first:
+      213: 9107231541635094640
+    second: Dyn_22
+  - first:
+      213: 2344866207077090420
+    second: Dyn_23
+  - first:
+      213: 6740780509789778732
+    second: Dyn_24
+  - first:
+      213: 2339345075802454169
+    second: Dyn_25
+  - first:
+      213: 5598029305989378519
+    second: Dyn_26
+  - first:
+      213: -327580596873400296
+    second: Dyn_27
+  - first:
+      213: -4837620175293772910
+    second: Dyn_28
+  - first:
+      213: 9114036669513940717
+    second: Dyn_29
+  - first:
+      213: -605503658055026196
+    second: Dyn_30
+  - first:
+      213: -4775888187426311244
+    second: Dyn_31
+  - first:
+      213: 2291542081179970170
+    second: Dyn_32
+  - first:
+      213: -1871397448204413401
+    second: Dyn_33
+  - first:
+      213: 7652844920379996470
+    second: Dyn_34
+  - first:
+      213: 7183861545660195102
+    second: Dyn_35
+  - first:
+      213: -5930009307275829744
+    second: Dyn_36
+  - first:
+      213: 5611013142088643018
+    second: Dyn_37
+  - first:
+      213: -3355096747160406389
+    second: Dyn_38
+  - first:
+      213: 5823648992022399616
+    second: Dyn_39
+  - first:
+      213: -363897916383004050
+    second: Dyn_40
+  - first:
+      213: -1261115203410175681
+    second: Dyn_41
+  - first:
+      213: 3113960298575733935
+    second: Dyn_42
+  - first:
+      213: 4326872077545000390
+    second: Dyn_43
+  - first:
+      213: -5210522322213926600
+    second: Dyn_44
+  - first:
+      213: 8917010137198989269
+    second: Dyn_45
+  - first:
+      213: 8530489822091704956
+    second: Dyn_46
+  - first:
+      213: -849088570484176882
+    second: Dyn_47
+  - first:
+      213: -8052674207472902178
+    second: Dyn_48
+  - first:
+      213: -8035646928355518194
+    second: Dyn_49
+  - first:
+      213: 1395040810925198159
+    second: Dyn_50
+  - first:
+      213: -7473599911956941977
+    second: Dyn_51
+  - first:
+      213: 9066512841211418862
+    second: Dyn_52
+  - first:
+      213: -3820902916594619797
+    second: Dyn_53
+  - first:
+      213: 8497211641060219361
+    second: Dyn_54
+  - first:
+      213: 3415439522824481275
+    second: Dyn_55
+  - first:
+      213: -1173606517680724339
+    second: Dyn_56
+  - first:
+      213: 4507694809499011732
+    second: Dyn_57
+  - first:
+      213: 657962781166738813
+    second: Dyn_58
+  - first:
+      213: -2424270026941883624
+    second: Dyn_59
+  - first:
+      213: -666893975356126157
+    second: Dyn_60
+  - first:
+      213: 1402780329191551803
+    second: Dyn_61
+  - first:
+      213: 8479402806701024351
+    second: Dyn_62
+  - first:
+      213: -9133241656095995716
+    second: Dyn_63
+  - first:
+      213: -2922129730140786010
+    second: Dyn_64
+  - first:
+      213: -3758728156429700889
+    second: Dyn_65
+  - first:
+      213: 9020202696089465949
+    second: Dyn_66
+  - first:
+      213: -9032330398222306497
+    second: Dyn_67
+  - first:
+      213: 1804949208360222916
+    second: Dyn_68
+  - first:
+      213: -6725320695082297716
+    second: Dyn_69
+  - first:
+      213: 5934377542550114913
+    second: Dyn_70
+  - first:
+      213: -283192280654987995
+    second: Dyn_71
+  - first:
+      213: -7500579066692362771
+    second: Dyn_72
+  - first:
+      213: -6349216752870171596
+    second: Dyn_73
+  - first:
+      213: 3056304385891668362
+    second: Dyn_74
+  - first:
+      213: -8308199144366984509
+    second: Dyn_75
+  - first:
+      213: -8290679516394228701
+    second: Dyn_76
+  - first:
+      213: -2218780696837613394
+    second: Dyn_77
+  - first:
+      213: -542943408559692714
+    second: Dyn_78
+  - first:
+      213: -9121318300879470500
+    second: Dyn_79
+  - first:
+      213: 5115332529945784428
+    second: Dyn_80
+  - first:
+      213: 348646259616231172
+    second: Dyn_81
+  - first:
+      213: 5839007654364816116
+    second: Dyn_82
+  - first:
+      213: -9050404715028654799
+    second: Dyn_83
+  - first:
+      213: 3372747187252612899
+    second: Dyn_84
+  - first:
+      213: -1208005511926440020
+    second: Dyn_85
+  - first:
+      213: -6880680456540988201
+    second: Dyn_86
+  - first:
+      213: -4213027283935828897
+    second: Dyn_87
+  - first:
+      213: 6281129223951648877
+    second: Dyn_88
+  - first:
+      213: 7166290312597034721
+    second: Dyn_89
+  - first:
+      213: -1443156279504944425
+    second: Dyn_90
+  - first:
+      213: 8340268535436012291
+    second: Dyn_91
+  - first:
+      213: -751809528586796901
+    second: Dyn_92
+  - first:
+      213: 8380574372151015016
+    second: Dyn_93
+  - first:
+      213: 4108741691975149227
+    second: Dyn_94
+  - first:
+      213: -2209339211813187849
+    second: Dyn_95
+  - first:
+      213: 2034349656316039998
+    second: Dyn_96
+  - first:
+      213: 64071190407672448
+    second: Dyn_97
+  - first:
+      213: -4165510350242689785
+    second: Dyn_98
+  - first:
+      213: -2255582416395793222
+    second: Dyn_99
+  - first:
+      213: 3819303616803546260
+    second: Dyn_100
+  - first:
+      213: -5099445057478169061
+    second: Dyn_101
+  - first:
+      213: -5739616811155561394
+    second: Dyn_102
+  - first:
+      213: -4805677559551176941
+    second: Dyn_103
+  - first:
+      213: -2194358369887325731
+    second: Dyn_104
+  - first:
+      213: -5728597386256940394
+    second: Dyn_105
+  - first:
+      213: 564851825850607389
+    second: Dyn_106
+  - first:
+      213: -7798724736873372546
+    second: Dyn_107
+  - first:
+      213: -7170949869482247301
+    second: Dyn_108
+  - first:
+      213: -2977835735733600971
+    second: Dyn_109
+  - first:
+      213: -3312618180673981129
+    second: Dyn_110
+  - first:
+      213: 9083253568567745964
+    second: Dyn_111
+  - first:
+      213: -7307162938839808415
+    second: Dyn_112
+  - first:
+      213: 539527705608442788
+    second: Dyn_113
+  - first:
+      213: -2270395293831582381
+    second: Dyn_114
+  - first:
+      213: 7954725006344424366
+    second: Dyn_115
+  - first:
+      213: 7460068308037989000
+    second: Dyn_116
+  - first:
+      213: 6055172474548677907
+    second: Dyn_117
+  - first:
+      213: 1317709876691718640
+    second: Dyn_118
+  - first:
+      213: 4790276343371076330
+    second: Dyn_119
+  - first:
+      213: 5025211501186830123
+    second: Dyn_120
+  - first:
+      213: 2009733321467711921
+    second: Dyn_121
+  - first:
+      213: -5089643882082461936
+    second: Dyn_122
+  - first:
+      213: 6401384335106344939
+    second: Dyn_123
+  - first:
+      213: -9049424426487461704
+    second: Dyn_124
+  - first:
+      213: -7786407797607986325
+    second: Dyn_125
+  - first:
+      213: -4236689863855417244
+    second: Dyn_126
+  - first:
+      213: 2472377034433451150
+    second: Dyn_127
+  - first:
+      213: 4952903711385489387
+    second: Dyn_128
+  - first:
+      213: -6138895201179590351
+    second: Dyn_129
+  - first:
+      213: 7336249260184708014
+    second: Dyn_130
+  - first:
+      213: 9202855609927818287
+    second: Dyn_131
+  - first:
+      213: 5031393847780098846
+    second: Dyn_132
+  - first:
+      213: 8543064427668541186
+    second: Dyn_133
+  - first:
+      213: -6307309040581926726
+    second: Dyn_134
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dyn_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3318
+        width: 211
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa09df27a08f1a30800000000000000
+      internalID: 4188207634028497659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3328
+        width: 141
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d236ea754d0abc360800000000000000
+      internalID: 7191018063891686189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3251
+        width: 124
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d513591cc74454290800000000000000
+      internalID: -7906838268164624035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_3
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 3146
+        width: 316
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64934f1cbfaf75bc0800000000000000
+      internalID: -3794288201838610106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_4
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 2935
+        width: 358
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec3ec8c06067a650800000000000000
+      internalID: 6244065377174568169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_5
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 3289
+        width: 209
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14733620236734300800000000000000
+      internalID: 235161562713896769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_6
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 3128
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d0b2fb4b294d6f0800000000000000
+      internalID: -660741940317582005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_7
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 3249
+        width: 191
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fbbe167b0641c50800000000000000
+      internalID: 6635034491761704783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_8
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 3249
+        width: 231
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3ea157d3933d650800000000000000
+      internalID: 6256407243468235755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_9
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 3153
+        width: 421
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2929d9a69d499ff0800000000000000
+      internalID: -28906613111183059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_10
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 3186
+        width: 294
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbb13fb22969c710800000000000000
+      internalID: 1714016731148696522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_11
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3311
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be69df0037aa48b0800000000000000
+      internalID: -5167133797588046156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_12
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 3177
+        width: 251
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebeab6ccf6011b1e0800000000000000
+      internalID: -2183946271940956482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_13
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 3209
+        width: 336
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43af93c46b725d4b0800000000000000
+      internalID: -5416379312926754252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_14
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 3340
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855d216dbdb2ca9f0800000000000000
+      internalID: -455941239081872040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3230
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140c642d2ad7fd310800000000000000
+      internalID: 1432001344793133121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_16
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 3133
+        width: 237
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af4e7b289f5d5c90800000000000000
+      internalID: -7179477123789336665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_17
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2896
+        width: 574
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27107898398f82260800000000000000
+      internalID: 7073176527336571250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_18
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 3025
+        width: 350
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f4393d606caa60800000000000000
+      internalID: 7686624686242067107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_19
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 3186
+        width: 125
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d797fb4f2dfc8c0800000000000000
+      internalID: -3976727997318595193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_20
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 3209
+        width: 200
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73424cdc8a831ed80800000000000000
+      internalID: -8223229146943970249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3077
+        width: 291
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9791ff0df4012ce70800000000000000
+      internalID: 9133880929255627129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2932
+        width: 109
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078946eb5d2636e70800000000000000
+      internalID: 9107231541635094640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2923
+        width: 482
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474c5a64463aa8020800000000000000
+      internalID: 2344866207077090420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_24
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2934
+        width: 484
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2375e2d8201c8d50800000000000000
+      internalID: 6740780509789778732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_25
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 2950
+        width: 432
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998b34ab3f5077020800000000000000
+      internalID: 2339345075802454169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_26
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 3075
+        width: 115
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d139b18ef130bd40800000000000000
+      internalID: 5598029305989378519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_27
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 2945
+        width: 266
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810fc08ce23347bf0800000000000000
+      internalID: -327580596873400296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_28
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 2932
+        width: 387
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b0a55d4125ddcb0800000000000000
+      internalID: -4837620175293772910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_29
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 2935
+        width: 307
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee334c00109b7e70800000000000000
+      internalID: 9114036669513940717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2773
+        width: 315
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce93e6f81a1d897f0800000000000000
+      internalID: -605503658055026196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2777
+        width: 260
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3787d4ff2a8bdb0800000000000000
+      internalID: -4775888187426311244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_32
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2597
+        width: 362
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a6798b1613dcf10800000000000000
+      internalID: 2291542081179970170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_33
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2739
+        width: 115
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726143a9fe57706e0800000000000000
+      internalID: -1871397448204413401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_34
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 2596
+        width: 185
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639f66898ed543a60800000000000000
+      internalID: 7652844920379996470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_35
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 2826
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e112aa8930432b360800000000000000
+      internalID: 7183861545660195102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_36
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2818
+        width: 443
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e501d14ff54bda0800000000000000
+      internalID: -5930009307275829744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_37
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 2814
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1fd3c69b25edd40800000000000000
+      internalID: 5611013142088643018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_38
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2610
+        width: 348
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b867f66d84d4071d0800000000000000
+      internalID: -3355096747160406389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_39
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 2623
+        width: 170
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a8e0a37e1c1d050800000000000000
+      internalID: 5823648992022399616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_40
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 2838
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a7c77e5cc23faf0800000000000000
+      internalID: -363897916383004050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_41
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 2771
+        width: 112
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3954e7776e9f7ee0800000000000000
+      internalID: -1261115203410175681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_42
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 2698
+        width: 191
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4a641a462073b20800000000000000
+      internalID: 3113960298575733935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2451
+        width: 105
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd40a2da332c0c30800000000000000
+      internalID: 4326872077545000390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2590
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8390232fd8180b7b0800000000000000
+      internalID: -5210522322213926600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_45
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2511
+        width: 193
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df8d46b9759fbb70800000000000000
+      internalID: 8917010137198989269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_46
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2612
+        width: 266
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a7cd5fb43626670800000000000000
+      internalID: 8530489822091704956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_47
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 2596
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08427d917e6734f0800000000000000
+      internalID: -849088570484176882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_48
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2612
+        width: 575
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf90a329772f3090800000000000000
+      internalID: -8052674207472902178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_49
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 2603
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0919ee71b5ab7090800000000000000
+      internalID: -8035646928355518194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_50
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2617
+        width: 314
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b8e5ee93e2c5310800000000000000
+      internalID: 1395040810925198159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_51
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2595
+        width: 146
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7637a661a70784890800000000000000
+      internalID: -7473599911956941977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_52
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 2595
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee89ce38469b2dd70800000000000000
+      internalID: 9066512841211418862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2431
+        width: 162
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aaf179a0d69fac0800000000000000
+      internalID: -3820902916594619797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_54
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2434
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e955b6a7f82ce570800000000000000
+      internalID: 8497211641060219361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2429
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf968c57624166f20800000000000000
+      internalID: 3415439522824481275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_56
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2234
+        width: 396
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ae87171386bfe0800000000000000
+      internalID: -1173606517680724339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_57
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2256
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a8f04eb8c8e8e30800000000000000
+      internalID: 4507694809499011732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_58
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 2256
+        width: 229
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d1fd6d9ad812900800000000000000
+      internalID: 657962781166738813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_59
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 2401
+        width: 155
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b908c31434b5ed0800000000000000
+      internalID: -2424270026941883624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_60
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2250
+        width: 396
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ccc087677beb6f0800000000000000
+      internalID: -666893975356126157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_61
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 2254
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b333e53f64da77310800000000000000
+      internalID: 1402780329191551803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_62
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 2281
+        width: 214
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f546dd84de3eca570800000000000000
+      internalID: 8479402806701024351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_63
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 2265
+        width: 455
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb809909a15304180800000000000000
+      internalID: -9133241656095995716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_64
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 2264
+        width: 282
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2b9571e728277d0800000000000000
+      internalID: -2922129730140786010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2059
+        width: 388
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0bfb408a056dbc0800000000000000
+      internalID: -3758728156429700889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_66
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2054
+        width: 386
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54fe6e9f823e2d70800000000000000
+      internalID: 9020202696089465949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_67
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 2256
+        width: 152
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f333fffab57b6a280800000000000000
+      internalID: -9032330398222306497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_68
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 2256
+        width: 177
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c00fe1fdb77c0910800000000000000
+      internalID: 1804949208360222916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_69
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 2261
+        width: 168
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c865909c57cdaa2a0800000000000000
+      internalID: -6725320695082297716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_70
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 1850
+        width: 430
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16251caeee42b5250800000000000000
+      internalID: 5934377542550114913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_71
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 1846
+        width: 428
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3d640f16e11cf0800000000000000
+      internalID: -283192280654987995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1645
+        width: 433
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded1210241798e790800000000000000
+      internalID: -7500579066692362771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_73
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1640
+        width: 433
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cd63bb00d03e7a0800000000000000
+      internalID: -6349216752870171596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_74
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1870
+        width: 404
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a819a8e55ac2a6a20800000000000000
+      internalID: 3056304385891668362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_75
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1452
+        width: 434
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c23dcc95e853bc80800000000000000
+      internalID: -8308199144366984509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_76
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1862
+        width: 414
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f6bed7e691fc80800000000000000
+      internalID: -8290679516394228701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_77
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1862
+        width: 414
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8108a36be4531e0800000000000000
+      internalID: -2218780696837613394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_78
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1855
+        width: 421
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654e8a7b8d31778f0800000000000000
+      internalID: -542943408559692714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_79
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 1856
+        width: 415
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c504fc805519a6180800000000000000
+      internalID: -9121318300879470500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1216
+        width: 442
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c603b6375df4df640800000000000000
+      internalID: 5115332529945784428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_81
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1212
+        width: 447
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fa1b80de3a6d400800000000000000
+      internalID: 348646259616231172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_82
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1005
+        width: 463
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2a3377682580150800000000000000
+      internalID: 5839007654364816116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_83
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1442
+        width: 436
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135523fdcd0866280800000000000000
+      internalID: -9050404715028654799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_84
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1005
+        width: 451
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fc36d72b76ece20800000000000000
+      internalID: 3372747187252612899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_85
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1442
+        width: 436
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf19ee136d4c3fe0800000000000000
+      internalID: -1208005511926440020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_86
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1005
+        width: 451
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd6e68499e280a0800000000000000
+      internalID: -6880680456540988201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_87
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 1436
+        width: 440
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54e9ffb1025885c0800000000000000
+      internalID: -4213027283935828897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_88
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 1434
+        width: 440
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6886f510cd0b2750800000000000000
+      internalID: 6281129223951648877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_89
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 1421
+        width: 442
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e65ba71217c37360800000000000000
+      internalID: 7166290312597034721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_90
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 1422
+        width: 440
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2cbbc8201e8fbe0800000000000000
+      internalID: -1443156279504944425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 760
+        width: 466
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30be70a5b069eb370800000000000000
+      internalID: 8340268535436012291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_92
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 761
+        width: 462
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9084dd87390195f0800000000000000
+      internalID: -751809528586796901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_93
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 1005
+        width: 451
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866bdc14df7cd4470800000000000000
+      internalID: 8380574372151015016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_94
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 1005
+        width: 451
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba62400ccce250930800000000000000
+      internalID: 4108741691975149227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_95
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1005
+        width: 323
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe888341b9d651e0800000000000000
+      internalID: -2209339211813187849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_96
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 973
+        width: 461
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33d7a5eb367b3c10800000000000000
+      internalID: 2034349656316039998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_97
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 911
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082f5908860a3e000800000000000000
+      internalID: 64071190407672448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_98
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 863
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d429108622136c0800000000000000
+      internalID: -4165510350242689785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_99
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 787
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc8c1d2ebf82b0e0800000000000000
+      internalID: -2255582416395793222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_100
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 587
+        width: 130
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494a0f86764e00530800000000000000
+      internalID: 3819303616803546260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_101
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 612
+        width: 130
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e646dfcb12b39b0800000000000000
+      internalID: -5099445057478169061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_102
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 668
+        width: 120
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4466388be8c850b0800000000000000
+      internalID: -5739616811155561394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_103
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 859
+        width: 104
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fc2ed98bdce4db0800000000000000
+      internalID: -4805677559551176941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_104
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 503
+        width: 459
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f5f450b21c81e0800000000000000
+      internalID: -2194358369887325731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_105
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 793
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6928ce2570fef70b0800000000000000
+      internalID: -5728597386256940394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 548
+        width: 84
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d176e8e2eb1c6d700800000000000000
+      internalID: 564851825850607389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_107
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 499
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e746c95db2d55c390800000000000000
+      internalID: -7798724736873372546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_108
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 645
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b7067461bab7c90800000000000000
+      internalID: -7170949869482247301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_109
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 645
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d7224fc2a9ca6d0800000000000000
+      internalID: -2977835735733600971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_110
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 645
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7353d60d0573702d0800000000000000
+      internalID: -3312618180673981129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_111
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 645
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad9747def23e0e70800000000000000
+      internalID: 9083253568567745964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_112
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 653
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166cd8aa50eb79a90800000000000000
+      internalID: -7307162938839808415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_113
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 666
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3d547f699cc7700800000000000000
+      internalID: 539527705608442788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_114
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 503
+        width: 91
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d2373628fed70e0800000000000000
+      internalID: -2270395293831582381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_115
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 342
+        width: 83
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab83115f3cd46e60800000000000000
+      internalID: 7954725006344424366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_116
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1
+        width: 209
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882f0ccd99c778760800000000000000
+      internalID: 7460068308037989000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_117
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 557
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d623fa84b480450800000000000000
+      internalID: 6055172474548677907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 107
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1db3db622794210800000000000000
+      internalID: 1317709876691718640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_119
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 8
+        width: 48
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2179e44fa7a7240800000000000000
+      internalID: 4790276343371076330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_120
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 271
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fc2715c332db540800000000000000
+      internalID: 5025211501186830123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_121
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 272
+        width: 69
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1595fcec104eb10800000000000000
+      internalID: 2009733321467711921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_122
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 62
+        width: 116
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0171c37fad3fd59b0800000000000000
+      internalID: -5089643882082461936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_123
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 72
+        width: 127
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be783c4032946d850800000000000000
+      internalID: 6401384335106344939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_124
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 42
+        width: 110
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c8751e6cf96280800000000000000
+      internalID: -9049424426487461704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_125
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 146
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b8e3bbc5f11f390800000000000000
+      internalID: -7786407797607986325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_126
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 47
+        width: 91
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468566904014435c0800000000000000
+      internalID: -4236689863855417244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_127
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 49
+        width: 99
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e845d3840d5af4220800000000000000
+      internalID: 2472377034433451150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_128
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 54
+        width: 106
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef88d31faf3cb440800000000000000
+      internalID: 4952903711385489387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_129
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1
+        width: 104
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131275cf6534ecaa0800000000000000
+      internalID: -6138895201179590351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_130
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3280145d79fc560800000000000000
+      internalID: 7336249260184708014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_131
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 49
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c55fc1b6c17bf70800000000000000
+      internalID: 9202855609927818287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_132
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 69
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13c40e0c0a13d540800000000000000
+      internalID: 5031393847780098846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_133
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 1
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f857875df0f8670800000000000000
+      internalID: 8543064427668541186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyn_134
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0218b58dfe778a0800000000000000
+      internalID: -6307309040581926726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dyn_0: 4188207634028497659
+      Dyn_1: 7191018063891686189
+      Dyn_10: 1714016731148696522
+      Dyn_100: 3819303616803546260
+      Dyn_101: -5099445057478169061
+      Dyn_102: -5739616811155561394
+      Dyn_103: -4805677559551176941
+      Dyn_104: -2194358369887325731
+      Dyn_105: -5728597386256940394
+      Dyn_106: 564851825850607389
+      Dyn_107: -7798724736873372546
+      Dyn_108: -7170949869482247301
+      Dyn_109: -2977835735733600971
+      Dyn_11: -5167133797588046156
+      Dyn_110: -3312618180673981129
+      Dyn_111: 9083253568567745964
+      Dyn_112: -7307162938839808415
+      Dyn_113: 539527705608442788
+      Dyn_114: -2270395293831582381
+      Dyn_115: 7954725006344424366
+      Dyn_116: 7460068308037989000
+      Dyn_117: 6055172474548677907
+      Dyn_118: 1317709876691718640
+      Dyn_119: 4790276343371076330
+      Dyn_12: -2183946271940956482
+      Dyn_120: 5025211501186830123
+      Dyn_121: 2009733321467711921
+      Dyn_122: -5089643882082461936
+      Dyn_123: 6401384335106344939
+      Dyn_124: -9049424426487461704
+      Dyn_125: -7786407797607986325
+      Dyn_126: -4236689863855417244
+      Dyn_127: 2472377034433451150
+      Dyn_128: 4952903711385489387
+      Dyn_129: -6138895201179590351
+      Dyn_13: -5416379312926754252
+      Dyn_130: 7336249260184708014
+      Dyn_131: 9202855609927818287
+      Dyn_132: 5031393847780098846
+      Dyn_133: 8543064427668541186
+      Dyn_134: -6307309040581926726
+      Dyn_14: -455941239081872040
+      Dyn_15: 1432001344793133121
+      Dyn_16: -7179477123789336665
+      Dyn_17: 7073176527336571250
+      Dyn_18: 7686624686242067107
+      Dyn_19: -3976727997318595193
+      Dyn_2: -7906838268164624035
+      Dyn_20: -8223229146943970249
+      Dyn_21: 9133880929255627129
+      Dyn_22: 9107231541635094640
+      Dyn_23: 2344866207077090420
+      Dyn_24: 6740780509789778732
+      Dyn_25: 2339345075802454169
+      Dyn_26: 5598029305989378519
+      Dyn_27: -327580596873400296
+      Dyn_28: -4837620175293772910
+      Dyn_29: 9114036669513940717
+      Dyn_3: -3794288201838610106
+      Dyn_30: -605503658055026196
+      Dyn_31: -4775888187426311244
+      Dyn_32: 2291542081179970170
+      Dyn_33: -1871397448204413401
+      Dyn_34: 7652844920379996470
+      Dyn_35: 7183861545660195102
+      Dyn_36: -5930009307275829744
+      Dyn_37: 5611013142088643018
+      Dyn_38: -3355096747160406389
+      Dyn_39: 5823648992022399616
+      Dyn_4: 6244065377174568169
+      Dyn_40: -363897916383004050
+      Dyn_41: -1261115203410175681
+      Dyn_42: 3113960298575733935
+      Dyn_43: 4326872077545000390
+      Dyn_44: -5210522322213926600
+      Dyn_45: 8917010137198989269
+      Dyn_46: 8530489822091704956
+      Dyn_47: -849088570484176882
+      Dyn_48: -8052674207472902178
+      Dyn_49: -8035646928355518194
+      Dyn_5: 235161562713896769
+      Dyn_50: 1395040810925198159
+      Dyn_51: -7473599911956941977
+      Dyn_52: 9066512841211418862
+      Dyn_53: -3820902916594619797
+      Dyn_54: 8497211641060219361
+      Dyn_55: 3415439522824481275
+      Dyn_56: -1173606517680724339
+      Dyn_57: 4507694809499011732
+      Dyn_58: 657962781166738813
+      Dyn_59: -2424270026941883624
+      Dyn_6: -660741940317582005
+      Dyn_60: -666893975356126157
+      Dyn_61: 1402780329191551803
+      Dyn_62: 8479402806701024351
+      Dyn_63: -9133241656095995716
+      Dyn_64: -2922129730140786010
+      Dyn_65: -3758728156429700889
+      Dyn_66: 9020202696089465949
+      Dyn_67: -9032330398222306497
+      Dyn_68: 1804949208360222916
+      Dyn_69: -6725320695082297716
+      Dyn_7: 6635034491761704783
+      Dyn_70: 5934377542550114913
+      Dyn_71: -283192280654987995
+      Dyn_72: -7500579066692362771
+      Dyn_73: -6349216752870171596
+      Dyn_74: 3056304385891668362
+      Dyn_75: -8308199144366984509
+      Dyn_76: -8290679516394228701
+      Dyn_77: -2218780696837613394
+      Dyn_78: -542943408559692714
+      Dyn_79: -9121318300879470500
+      Dyn_8: 6256407243468235755
+      Dyn_80: 5115332529945784428
+      Dyn_81: 348646259616231172
+      Dyn_82: 5839007654364816116
+      Dyn_83: -9050404715028654799
+      Dyn_84: 3372747187252612899
+      Dyn_85: -1208005511926440020
+      Dyn_86: -6880680456540988201
+      Dyn_87: -4213027283935828897
+      Dyn_88: 6281129223951648877
+      Dyn_89: 7166290312597034721
+      Dyn_9: -28906613111183059
+      Dyn_90: -1443156279504944425
+      Dyn_91: 8340268535436012291
+      Dyn_92: -751809528586796901
+      Dyn_93: 8380574372151015016
+      Dyn_94: 4108741691975149227
+      Dyn_95: -2209339211813187849
+      Dyn_96: 2034349656316039998
+      Dyn_97: 64071190407672448
+      Dyn_98: -4165510350242689785
+      Dyn_99: -2255582416395793222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

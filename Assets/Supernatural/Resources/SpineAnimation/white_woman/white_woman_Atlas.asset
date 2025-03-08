@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: white_woman_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 73946e6bfe9d8f14b8e7b98df59b38a9, type: 3}
+  materials:
+  - {fileID: 2100000, guid: c491e602e16844543880189f46199b73, type: 2}
+  - {fileID: 2100000, guid: 2bab96fc797f0c843ad2c57ebee6e6fc, type: 2}
+  - {fileID: 2100000, guid: 28319564a23682b4792bbdd7d2ee79da, type: 2}
+  - {fileID: 2100000, guid: bf24cc7732f62cb4cb6ad18c829251db, type: 2}
+  - {fileID: 2100000, guid: 6c1d71ba4d6a22d40a05bf033fd02ee5, type: 2}
+  - {fileID: 2100000, guid: 9a1dc6cfa6d7e334ba535c2135da3efd, type: 2}
+  - {fileID: 2100000, guid: 41c58e15dcaae9a42b3a6e41f2ce3e3e, type: 2}
+  - {fileID: 2100000, guid: 79b66553879c0454281c7953e6f6f8bd, type: 2}
+  - {fileID: 2100000, guid: 009412f5107b5dc4f8fbd443ba7e07e4, type: 2}
+  - {fileID: 2100000, guid: d2c60277c96e531458ce97374aa90162, type: 2}
+  - {fileID: 2100000, guid: c1fed254e586c0a45b772f6031d4eac2, type: 2}
+  - {fileID: 2100000, guid: 2e6ab9197a9a6dd498613d3b1067d084, type: 2}

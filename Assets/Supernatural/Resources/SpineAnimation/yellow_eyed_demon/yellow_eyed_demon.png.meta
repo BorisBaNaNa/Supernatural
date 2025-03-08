@@ -1,0 +1,5774 @@
+fileFormatVersion: 2
+guid: a59d20b924fd1fa479c4561823416d52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 603732332269990401
+    second: yellow_eyed_demon_0
+  - first:
+      213: -4477878848872814300
+    second: yellow_eyed_demon_1
+  - first:
+      213: 6279486493099537650
+    second: yellow_eyed_demon_2
+  - first:
+      213: 4079221899425592241
+    second: yellow_eyed_demon_3
+  - first:
+      213: 4432952621352783148
+    second: yellow_eyed_demon_4
+  - first:
+      213: -562009328155341940
+    second: yellow_eyed_demon_5
+  - first:
+      213: 9039868973058836921
+    second: yellow_eyed_demon_6
+  - first:
+      213: 6317621065102836550
+    second: yellow_eyed_demon_7
+  - first:
+      213: 2288935611766950829
+    second: yellow_eyed_demon_8
+  - first:
+      213: 2710843258380538500
+    second: yellow_eyed_demon_9
+  - first:
+      213: 2107224908307011549
+    second: yellow_eyed_demon_10
+  - first:
+      213: 1868796137195567690
+    second: yellow_eyed_demon_11
+  - first:
+      213: -3383289724901745158
+    second: yellow_eyed_demon_12
+  - first:
+      213: 4667835841374406672
+    second: yellow_eyed_demon_13
+  - first:
+      213: -7259163474474755683
+    second: yellow_eyed_demon_14
+  - first:
+      213: -2115853659519332198
+    second: yellow_eyed_demon_15
+  - first:
+      213: -2478521226762545428
+    second: yellow_eyed_demon_16
+  - first:
+      213: 4381884044118878640
+    second: yellow_eyed_demon_17
+  - first:
+      213: -3884053137429142140
+    second: yellow_eyed_demon_18
+  - first:
+      213: 1112218441686860600
+    second: yellow_eyed_demon_19
+  - first:
+      213: 9097150458510464858
+    second: yellow_eyed_demon_20
+  - first:
+      213: -3318506190742037133
+    second: yellow_eyed_demon_21
+  - first:
+      213: -3580363779278961905
+    second: yellow_eyed_demon_22
+  - first:
+      213: -1506079254257143448
+    second: yellow_eyed_demon_23
+  - first:
+      213: -3114909380093114720
+    second: yellow_eyed_demon_24
+  - first:
+      213: -7409795542586735938
+    second: yellow_eyed_demon_25
+  - first:
+      213: -2909975612212887260
+    second: yellow_eyed_demon_26
+  - first:
+      213: 1146837410508390973
+    second: yellow_eyed_demon_27
+  - first:
+      213: -4733153893785759817
+    second: yellow_eyed_demon_28
+  - first:
+      213: -6983558672573348671
+    second: yellow_eyed_demon_29
+  - first:
+      213: 2412646607214722187
+    second: yellow_eyed_demon_30
+  - first:
+      213: -3984800146982009564
+    second: yellow_eyed_demon_31
+  - first:
+      213: 3668415991672743051
+    second: yellow_eyed_demon_32
+  - first:
+      213: -2116090835080703077
+    second: yellow_eyed_demon_33
+  - first:
+      213: -6618636557781345940
+    second: yellow_eyed_demon_34
+  - first:
+      213: 5678809677150155796
+    second: yellow_eyed_demon_35
+  - first:
+      213: -6718320609477037804
+    second: yellow_eyed_demon_36
+  - first:
+      213: -4514535773618530486
+    second: yellow_eyed_demon_37
+  - first:
+      213: -6131378712507629301
+    second: yellow_eyed_demon_38
+  - first:
+      213: 2818177226177630226
+    second: yellow_eyed_demon_39
+  - first:
+      213: -6539927565820929543
+    second: yellow_eyed_demon_40
+  - first:
+      213: 1208147614923998087
+    second: yellow_eyed_demon_41
+  - first:
+      213: -6994256675649591000
+    second: yellow_eyed_demon_42
+  - first:
+      213: -2730372697497092898
+    second: yellow_eyed_demon_43
+  - first:
+      213: 545494431612555976
+    second: yellow_eyed_demon_44
+  - first:
+      213: 6392455144900522782
+    second: yellow_eyed_demon_45
+  - first:
+      213: -760651039525174033
+    second: yellow_eyed_demon_46
+  - first:
+      213: 2532082374831459532
+    second: yellow_eyed_demon_47
+  - first:
+      213: 6690499780057290711
+    second: yellow_eyed_demon_48
+  - first:
+      213: 5409741842992885391
+    second: yellow_eyed_demon_49
+  - first:
+      213: -7719433589115594850
+    second: yellow_eyed_demon_50
+  - first:
+      213: -1333108811346313938
+    second: yellow_eyed_demon_51
+  - first:
+      213: -5709353469538250192
+    second: yellow_eyed_demon_52
+  - first:
+      213: 536562120497175844
+    second: yellow_eyed_demon_53
+  - first:
+      213: 6402046685437360406
+    second: yellow_eyed_demon_54
+  - first:
+      213: -6940290468222377829
+    second: yellow_eyed_demon_55
+  - first:
+      213: 8784778999172715536
+    second: yellow_eyed_demon_56
+  - first:
+      213: -4772493483092876100
+    second: yellow_eyed_demon_57
+  - first:
+      213: 2121960003436343917
+    second: yellow_eyed_demon_58
+  - first:
+      213: -4759958984692417665
+    second: yellow_eyed_demon_59
+  - first:
+      213: 2269902767498712539
+    second: yellow_eyed_demon_60
+  - first:
+      213: -5355115409242980968
+    second: yellow_eyed_demon_61
+  - first:
+      213: 7253756598679612584
+    second: yellow_eyed_demon_62
+  - first:
+      213: -4388457743411296771
+    second: yellow_eyed_demon_63
+  - first:
+      213: 1016946157271255049
+    second: yellow_eyed_demon_64
+  - first:
+      213: -5980981117334693454
+    second: yellow_eyed_demon_65
+  - first:
+      213: -8924083015737786364
+    second: yellow_eyed_demon_66
+  - first:
+      213: 3574511477061819878
+    second: yellow_eyed_demon_67
+  - first:
+      213: -5606591198231383462
+    second: yellow_eyed_demon_68
+  - first:
+      213: -3382268382302035795
+    second: yellow_eyed_demon_69
+  - first:
+      213: -6365358271408369609
+    second: yellow_eyed_demon_70
+  - first:
+      213: -8496258979177547113
+    second: yellow_eyed_demon_71
+  - first:
+      213: -7334837202900379827
+    second: yellow_eyed_demon_72
+  - first:
+      213: -6660374522203790436
+    second: yellow_eyed_demon_73
+  - first:
+      213: 4706377082515341244
+    second: yellow_eyed_demon_74
+  - first:
+      213: 5409975274408405289
+    second: yellow_eyed_demon_75
+  - first:
+      213: -4682818823952074012
+    second: yellow_eyed_demon_76
+  - first:
+      213: -726945936263148089
+    second: yellow_eyed_demon_77
+  - first:
+      213: 2390229851698972556
+    second: yellow_eyed_demon_78
+  - first:
+      213: 6532688634127074461
+    second: yellow_eyed_demon_79
+  - first:
+      213: -3064567791035700468
+    second: yellow_eyed_demon_80
+  - first:
+      213: -5721256294187112993
+    second: yellow_eyed_demon_81
+  - first:
+      213: 738849853210943310
+    second: yellow_eyed_demon_82
+  - first:
+      213: 186193289056982506
+    second: yellow_eyed_demon_83
+  - first:
+      213: -8997521039636242458
+    second: yellow_eyed_demon_84
+  - first:
+      213: 8716351656052290088
+    second: yellow_eyed_demon_85
+  - first:
+      213: 5389524030762472578
+    second: yellow_eyed_demon_86
+  - first:
+      213: 4825168750351757988
+    second: yellow_eyed_demon_87
+  - first:
+      213: -7623031269994232925
+    second: yellow_eyed_demon_88
+  - first:
+      213: -3784565596333787131
+    second: yellow_eyed_demon_89
+  - first:
+      213: 3889039634444715370
+    second: yellow_eyed_demon_90
+  - first:
+      213: 5582710849132882792
+    second: yellow_eyed_demon_91
+  - first:
+      213: -6030178804512939876
+    second: yellow_eyed_demon_92
+  - first:
+      213: 5147478354074391612
+    second: yellow_eyed_demon_93
+  - first:
+      213: 4599708890616854392
+    second: yellow_eyed_demon_94
+  - first:
+      213: -408741999767235122
+    second: yellow_eyed_demon_95
+  - first:
+      213: 6032486220656920261
+    second: yellow_eyed_demon_96
+  - first:
+      213: -603663999161534213
+    second: yellow_eyed_demon_97
+  - first:
+      213: 669705317729439282
+    second: yellow_eyed_demon_98
+  - first:
+      213: -2738622184711590148
+    second: yellow_eyed_demon_99
+  - first:
+      213: -4786357426050407072
+    second: yellow_eyed_demon_100
+  - first:
+      213: -1097729939600032701
+    second: yellow_eyed_demon_101
+  - first:
+      213: 685928528799027012
+    second: yellow_eyed_demon_102
+  - first:
+      213: -2040549753407512342
+    second: yellow_eyed_demon_103
+  - first:
+      213: 1622615894554580809
+    second: yellow_eyed_demon_104
+  - first:
+      213: -8250940308722747167
+    second: yellow_eyed_demon_105
+  - first:
+      213: 1160701519071815889
+    second: yellow_eyed_demon_106
+  - first:
+      213: -6377082412959989634
+    second: yellow_eyed_demon_107
+  - first:
+      213: -6540412355142857040
+    second: yellow_eyed_demon_108
+  - first:
+      213: 6463078053252253735
+    second: yellow_eyed_demon_109
+  - first:
+      213: 724288308629758192
+    second: yellow_eyed_demon_110
+  - first:
+      213: -979736766754703007
+    second: yellow_eyed_demon_111
+  - first:
+      213: -2250253330665422476
+    second: yellow_eyed_demon_112
+  - first:
+      213: -705165885852751090
+    second: yellow_eyed_demon_113
+  - first:
+      213: 643647176972074938
+    second: yellow_eyed_demon_114
+  - first:
+      213: -3753843642913476997
+    second: yellow_eyed_demon_115
+  - first:
+      213: 8822222234364936387
+    second: yellow_eyed_demon_116
+  - first:
+      213: -179799472034717105
+    second: yellow_eyed_demon_117
+  - first:
+      213: 1272795637975710098
+    second: yellow_eyed_demon_118
+  - first:
+      213: -4845723744283463393
+    second: yellow_eyed_demon_119
+  - first:
+      213: 298525897441107832
+    second: yellow_eyed_demon_120
+  - first:
+      213: -8993973519891089738
+    second: yellow_eyed_demon_121
+  - first:
+      213: -1917455918840669408
+    second: yellow_eyed_demon_122
+  - first:
+      213: 7920796927228382822
+    second: yellow_eyed_demon_123
+  - first:
+      213: -5655948128626299023
+    second: yellow_eyed_demon_124
+  - first:
+      213: -6859908327890817400
+    second: yellow_eyed_demon_125
+  - first:
+      213: 9024768305375360177
+    second: yellow_eyed_demon_126
+  - first:
+      213: -1049117103907464026
+    second: yellow_eyed_demon_127
+  - first:
+      213: -1057966876345832120
+    second: yellow_eyed_demon_128
+  - first:
+      213: -6915094710401705750
+    second: yellow_eyed_demon_129
+  - first:
+      213: -4988679937859574564
+    second: yellow_eyed_demon_130
+  - first:
+      213: 2299482634534801402
+    second: yellow_eyed_demon_131
+  - first:
+      213: 2701252047386137162
+    second: yellow_eyed_demon_132
+  - first:
+      213: 5241518352473977930
+    second: yellow_eyed_demon_133
+  - first:
+      213: -1580099695396262959
+    second: yellow_eyed_demon_134
+  - first:
+      213: 4591912372109716984
+    second: yellow_eyed_demon_135
+  - first:
+      213: 7927280618325832069
+    second: yellow_eyed_demon_136
+  - first:
+      213: 5556113574744093001
+    second: yellow_eyed_demon_137
+  - first:
+      213: -6826804392880249514
+    second: yellow_eyed_demon_138
+  - first:
+      213: -5002439304607105505
+    second: yellow_eyed_demon_139
+  - first:
+      213: -9068479545469423339
+    second: yellow_eyed_demon_140
+  - first:
+      213: 3142583062578715989
+    second: yellow_eyed_demon_141
+  - first:
+      213: 3383564329050940360
+    second: yellow_eyed_demon_142
+  - first:
+      213: 1788057132225180933
+    second: yellow_eyed_demon_143
+  - first:
+      213: 6534291909363882850
+    second: yellow_eyed_demon_144
+  - first:
+      213: -622327901880875558
+    second: yellow_eyed_demon_145
+  - first:
+      213: -1713228250196662803
+    second: yellow_eyed_demon_146
+  - first:
+      213: 4627024936805876599
+    second: yellow_eyed_demon_147
+  - first:
+      213: -59037092392222990
+    second: yellow_eyed_demon_148
+  - first:
+      213: -7953095750216403133
+    second: yellow_eyed_demon_149
+  - first:
+      213: 772262007539390279
+    second: yellow_eyed_demon_150
+  - first:
+      213: 2656696949430279667
+    second: yellow_eyed_demon_151
+  - first:
+      213: 5342938676637535289
+    second: yellow_eyed_demon_152
+  - first:
+      213: -1628359685640659987
+    second: yellow_eyed_demon_153
+  - first:
+      213: 7402300159353183686
+    second: yellow_eyed_demon_154
+  - first:
+      213: -3257904238661539584
+    second: yellow_eyed_demon_155
+  - first:
+      213: -8876666645991583926
+    second: yellow_eyed_demon_156
+  - first:
+      213: -4823982019235091253
+    second: yellow_eyed_demon_157
+  - first:
+      213: -4136130711410361157
+    second: yellow_eyed_demon_158
+  - first:
+      213: 7272210942243263460
+    second: yellow_eyed_demon_159
+  - first:
+      213: -5967984781095297834
+    second: yellow_eyed_demon_160
+  - first:
+      213: 8379826647820349459
+    second: yellow_eyed_demon_161
+  - first:
+      213: 6206790015213418990
+    second: yellow_eyed_demon_162
+  - first:
+      213: -4915658282694670349
+    second: yellow_eyed_demon_163
+  - first:
+      213: 8958580680733638382
+    second: yellow_eyed_demon_164
+  - first:
+      213: -7539714398891457981
+    second: yellow_eyed_demon_165
+  - first:
+      213: -3463634410658594902
+    second: yellow_eyed_demon_166
+  - first:
+      213: 1574911191787835890
+    second: yellow_eyed_demon_167
+  - first:
+      213: 8561368168742643190
+    second: yellow_eyed_demon_168
+  - first:
+      213: -3936238406226085686
+    second: yellow_eyed_demon_169
+  - first:
+      213: -850533942112693649
+    second: yellow_eyed_demon_170
+  - first:
+      213: -2560675081619035982
+    second: yellow_eyed_demon_171
+  - first:
+      213: 8639162607539012664
+    second: yellow_eyed_demon_172
+  - first:
+      213: -4902336173876215344
+    second: yellow_eyed_demon_173
+  - first:
+      213: -237878586123610443
+    second: yellow_eyed_demon_174
+  - first:
+      213: 4494907144782910785
+    second: yellow_eyed_demon_175
+  - first:
+      213: 2517503819854659795
+    second: yellow_eyed_demon_176
+  - first:
+      213: -1026487776609281509
+    second: yellow_eyed_demon_177
+  - first:
+      213: -4123354804416777739
+    second: yellow_eyed_demon_178
+  - first:
+      213: -3586061067250365928
+    second: yellow_eyed_demon_179
+  - first:
+      213: 339014451273094219
+    second: yellow_eyed_demon_180
+  - first:
+      213: 7672834595822596734
+    second: yellow_eyed_demon_181
+  - first:
+      213: 9175316038655525066
+    second: yellow_eyed_demon_182
+  - first:
+      213: 7687671710774574529
+    second: yellow_eyed_demon_183
+  - first:
+      213: 6784432642337651849
+    second: yellow_eyed_demon_184
+  - first:
+      213: 5038730588202519369
+    second: yellow_eyed_demon_185
+  - first:
+      213: -818047551326540193
+    second: yellow_eyed_demon_186
+  - first:
+      213: -179875468278979412
+    second: yellow_eyed_demon_187
+  - first:
+      213: 4801295003208693000
+    second: yellow_eyed_demon_188
+  - first:
+      213: 1970809200055699172
+    second: yellow_eyed_demon_189
+  - first:
+      213: 5321997695986229731
+    second: yellow_eyed_demon_190
+  - first:
+      213: -2499724154610663486
+    second: yellow_eyed_demon_191
+  - first:
+      213: 8121881121738839452
+    second: yellow_eyed_demon_192
+  - first:
+      213: 6233658263365601587
+    second: yellow_eyed_demon_193
+  - first:
+      213: 5045860518545543454
+    second: yellow_eyed_demon_194
+  - first:
+      213: 6000907121518621632
+    second: yellow_eyed_demon_195
+  - first:
+      213: -8733096217766797507
+    second: yellow_eyed_demon_196
+  - first:
+      213: -1992586882025212469
+    second: yellow_eyed_demon_197
+  - first:
+      213: -3348017512980652150
+    second: yellow_eyed_demon_198
+  - first:
+      213: 8511209237836601143
+    second: yellow_eyed_demon_199
+  - first:
+      213: -4863973900175357023
+    second: yellow_eyed_demon_200
+  - first:
+      213: -7784925136105160686
+    second: yellow_eyed_demon_201
+  - first:
+      213: -659419958247499939
+    second: yellow_eyed_demon_202
+  - first:
+      213: -8540886427366327086
+    second: yellow_eyed_demon_203
+  - first:
+      213: -4899183604607279266
+    second: yellow_eyed_demon_204
+  - first:
+      213: 2447428515964784902
+    second: yellow_eyed_demon_205
+  - first:
+      213: 8976292358097141526
+    second: yellow_eyed_demon_206
+  - first:
+      213: -8373408238233013221
+    second: yellow_eyed_demon_207
+  - first:
+      213: -7996246512846275233
+    second: yellow_eyed_demon_208
+  - first:
+      213: -775813616310507825
+    second: yellow_eyed_demon_209
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: -0.5
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yellow_eyed_demon_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1748
+        width: 128
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102fe548b53e06800800000000000000
+      internalID: 603732332269990401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1736
+        width: 378
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42963b969e06bd1c0800000000000000
+      internalID: -4477878848872814300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1771
+        width: 634
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4bf0102b7352750800000000000000
+      internalID: 6279486493099537650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_3
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1983
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3b14374be4c9830800000000000000
+      internalID: 4079221899425592241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_4
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1978
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d8edd1ce2058d30800000000000000
+      internalID: 4432952621352783148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_5
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1954
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b48d26e775338f0800000000000000
+      internalID: -562009328155341940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_6
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1960
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b94f3b8fe0147d70800000000000000
+      internalID: 9039868973058836921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_7
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1918
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643caf2f2e2bca750800000000000000
+      internalID: 6317621065102836550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_8
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1931
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab4c15cfcee3cf10800000000000000
+      internalID: 2288935611766950829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_9
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1935
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482d881b499de9520800000000000000
+      internalID: 2710843258380538500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_10
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1921
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd79e79b3ed5e3d10800000000000000
+      internalID: 2107224908307011549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_11
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1928
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4af92b7f2c4fe910800000000000000
+      internalID: 1868796137195567690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_12
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1925
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd900fabe32c01d0800000000000000
+      internalID: -3383289724901745158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_13
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1754
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01845fa67fb77c040800000000000000
+      internalID: 4667835841374406672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1917
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d991179d745424b90800000000000000
+      internalID: -7259163474474755683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_15
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1921
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90d3a39e4af2a2e0800000000000000
+      internalID: -2115853659519332198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_16
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1924
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce69d8673168a9dd0800000000000000
+      internalID: -2478521226762545428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_17
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1909
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b968a862549fcc30800000000000000
+      internalID: 4381884044118878640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_18
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1917
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4856bc60042191ac0800000000000000
+      internalID: -3884053137429142140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_19
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1901
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8334269a7c46f6f00800000000000000
+      internalID: 1112218441686860600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_20
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1912
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a575ccba4229f3e70800000000000000
+      internalID: 9097150458510464858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_21
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1908
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dd2e3a33c42f1d0800000000000000
+      internalID: -3318506190742037133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_22
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1906
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f030761cc1eff4ec0800000000000000
+      internalID: -3580363779278961905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_23
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1911
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861fa66d5e4591be0800000000000000
+      internalID: -1506079254257143448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_24
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1905
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6840c1c6e95c4d0800000000000000
+      internalID: -3114909380093114720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_25
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1903
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb248d9763e1b2990800000000000000
+      internalID: -7409795542586735938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_26
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1874
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42140013990bd97d0800000000000000
+      internalID: -2909975612212887260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_27
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1904
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d324b747c826aef00800000000000000
+      internalID: 1146837410508390973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_28
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1898
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf84a56c95705eb0800000000000000
+      internalID: -4733153893785759817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_29
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1886
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4ca25436a651f90800000000000000
+      internalID: -6983558672573348671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_30
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1887
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cb5977e417b7120800000000000000
+      internalID: 2412646607214722187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_31
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1892
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4258632f06523b8c0800000000000000
+      internalID: -3984800146982009564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_32
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1891
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84240888e4d8e230800000000000000
+      internalID: 3668415991672743051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_33
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1889
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b931e86d89222a2e0800000000000000
+      internalID: -2116090835080703077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_34
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1890
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6957042e11e524a0800000000000000
+      internalID: -6618636557781345940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_35
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1877
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f591505f2fce40800000000000000
+      internalID: 5678809677150155796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_36
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1867
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4117fe8300bb3c2a0800000000000000
+      internalID: -6718320609477037804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_37
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1821
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a479ca702a52951c0800000000000000
+      internalID: -4514535773618530486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_38
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1883
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b014791eb87f8eaa0800000000000000
+      internalID: -6131378712507629301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_39
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1878
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210d960814d2c1720800000000000000
+      internalID: 2818177226177630226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_40
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1880
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9557667828d35a0800000000000000
+      internalID: -6539927565820929543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_41
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1879
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c7cfcad334c010800000000000000
+      internalID: 1208147614923998087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_42
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1875
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82960045c986fee90800000000000000
+      internalID: -6994256675649591000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_43
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1872
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcb24d6f74cb1ad0800000000000000
+      internalID: -2730372697497092898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_44
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1874
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2583f9b4cf19700800000000000000
+      internalID: 545494431612555976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_45
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1862
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13f96ae51096b850800000000000000
+      internalID: 6392455144900522782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_46
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1858
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4021fd8ef9175f0800000000000000
+      internalID: -760651039525174033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_47
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1868
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc4bdd1183c32320800000000000000
+      internalID: 2532082374831459532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_48
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1855
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7d4282a1e69dc50800000000000000
+      internalID: 6690499780057290711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_49
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1866
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e682e4b83431b40800000000000000
+      internalID: 5409741842992885391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_50
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1856
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97db8dcc001fd490800000000000000
+      internalID: -7719433589115594850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_51
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1855
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d72c46998df7de0800000000000000
+      internalID: -1333108811346313938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_52
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1864
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0325707d44d44c0b0800000000000000
+      internalID: -5709353469538250192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_53
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1862
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d1a20e760427700800000000000000
+      internalID: 536562120497175844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_54
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1848
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f5f87a83a8d850800000000000000
+      internalID: 6402046685437360406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_55
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1846
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90639327922faf90800000000000000
+      internalID: -6940290468222377829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_56
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1841
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014500cb4fdc9e970800000000000000
+      internalID: 8784778999172715536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_57
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1860
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e16f7672b4cdb0800000000000000
+      internalID: -4772493483092876100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_58
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1856
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62f8686167b27d10800000000000000
+      internalID: 2121960003436343917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_59
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1850
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bbaf3d58a31fdb0800000000000000
+      internalID: -4759958984692417665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1738
+        width: 56
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5df636a80508f10800000000000000
+      internalID: 2269902767498712539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_61
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1833
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89df9dc68eecea5b0800000000000000
+      internalID: -5355115409242980968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_62
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1846
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aca177c1358aa460800000000000000
+      internalID: 7253756598679612584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_63
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1840
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df54824fee01913c0800000000000000
+      internalID: -4388457743411296771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_64
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1842
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080adb542bec1e00800000000000000
+      internalID: 1016946157271255049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_65
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b952f4cc594ffca0800000000000000
+      internalID: -5980981117334693454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_66
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1841
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4004adc67c9472480800000000000000
+      internalID: -8924083015737786364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_67
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1838
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed93d3ff373b9130800000000000000
+      internalID: 3574511477061819878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_68
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1844
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52369c92036132b0800000000000000
+      internalID: -5606591198231383462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_69
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1841
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da02ad983d4cf01d0800000000000000
+      internalID: -3382268382302035795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_70
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1846
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7301c949064b9a7a0800000000000000
+      internalID: -6365358271408369609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_71
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1845
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a366a3979371a80800000000000000
+      internalID: -8496258979177547113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_72
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1850
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d479dc3fc6c653a90800000000000000
+      internalID: -7334837202900379827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_73
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1829
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c932bf409a89193a0800000000000000
+      internalID: -6660374522203790436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_74
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1837
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfbd566509605140800000000000000
+      internalID: 4706377082515341244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_75
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1821
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92962ca49d7141b40800000000000000
+      internalID: 5409975274408405289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_76
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1841
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaf2da1719430fb0800000000000000
+      internalID: -4682818823952074012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_77
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1845
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd0f12c58e59e5f0800000000000000
+      internalID: -726945936263148089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_78
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1842
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874d0ad26dcb2120800000000000000
+      internalID: 2390229851698972556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_79
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1835
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94406973b5c8aa50800000000000000
+      internalID: 6532688634127074461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_80
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1833
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba631b4d77875d0800000000000000
+      internalID: -3064567791035700468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_81
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1840
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5620486b30a90b0800000000000000
+      internalID: -5721256294187112993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_82
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1808
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fdcf2e60ce04a00800000000000000
+      internalID: 738849853210943310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_83
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1832
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae59dc55fcd759200800000000000000
+      internalID: 186193289056982506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_84
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1830
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efd06d0942622380800000000000000
+      internalID: -8997521039636242458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_85
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1841
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822726466a3b6f870800000000000000
+      internalID: 8716351656052290088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_86
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1833
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28457021d8f6bca40800000000000000
+      internalID: 5389524030762472578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_87
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1830
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a23802e96176f240800000000000000
+      internalID: 4825168750351757988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_88
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1826
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a38c40d27d853690800000000000000
+      internalID: -7623031269994232925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_89
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1765
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5083c5144a58a7bc0800000000000000
+      internalID: -3784565596333787131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_90
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1836
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a650e7841f4a8f530800000000000000
+      internalID: 3889039634444715370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_91
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1819
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86be84650f5c97d40800000000000000
+      internalID: 5582710849132882792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_92
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1830
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90aae89350805ca0800000000000000
+      internalID: -6030178804512939876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_93
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1816
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34dd9f5a448f6740800000000000000
+      internalID: 5147478354074391612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_94
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1736
+        width: 246
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8777c6f9dd275df30800000000000000
+      internalID: 4599708890616854392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_95
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1820
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5571b115bd35af0800000000000000
+      internalID: -408741999767235122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_96
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1824
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6c1b69142b7b350800000000000000
+      internalID: 6032486220656920261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_97
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1817
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8f8468aca5f97f0800000000000000
+      internalID: -603663999161534213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_98
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1823
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e047f20754b4900800000000000000
+      internalID: 669705317729439282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_99
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1820
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfee24202a57ef9d0800000000000000
+      internalID: -2738622184711590148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_100
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1815
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065663cb741739db0800000000000000
+      internalID: -4786357426050407072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_101
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1823
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c34da9f6414c0f0800000000000000
+      internalID: -1097729939600032701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_102
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1804
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4f5cdc58e48900800000000000000
+      internalID: 685928528799027012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1783
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae062a18fc28ea3e0800000000000000
+      internalID: -2040549753407512342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_104
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1803
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94714d12f80b48610800000000000000
+      internalID: 1622615894554580809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_105
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1775
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8f0ab2185ce7d80800000000000000
+      internalID: -8250940308722747167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_106
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1790
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d82886c1e3ab1010800000000000000
+      internalID: 1160701519071815889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_107
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1807
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e700128255d0087a0800000000000000
+      internalID: -6377082412959989634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_108
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1799
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be42279d99cb35a0800000000000000
+      internalID: -6540412355142857040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_109
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1792
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72849bf1f3771b950800000000000000
+      internalID: 6463078053252253735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_110
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1771
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f068d611603d0a00800000000000000
+      internalID: 724288308629758192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_111
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1807
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169323cf9964762f0800000000000000
+      internalID: -979736766754703007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_112
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1801
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4714c03a48e75c0e0800000000000000
+      internalID: -2250253330665422476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_113
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1781
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0be50aec5fb636f0800000000000000
+      internalID: -705165885852751090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_114
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1777
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf7a1082b1bee800800000000000000
+      internalID: 643647176972074938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_115
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1799
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ea8c1781ba7ebc0800000000000000
+      internalID: -3753843642913476997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_116
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1801
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c000e84164de6a70800000000000000
+      internalID: 8822222234364936387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_117
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1798
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4261923559318df0800000000000000
+      internalID: -179799472034717105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_118
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1768
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2997531a3e0e9a110800000000000000
+      internalID: 1272795637975710098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_119
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1798
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11fe46ade780ccb0800000000000000
+      internalID: -4845723744283463393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_120
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1786
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f5b39d8b3942400800000000000000
+      internalID: 298525897441107832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_121
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1788
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b63f9b5cbcfe2380800000000000000
+      internalID: -8993973519891089738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_122
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1791
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b180d3004d365e0800000000000000
+      internalID: -1917455918840669408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_123
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1784
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e0471d6d25ced60800000000000000
+      internalID: 7920796927228382822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_124
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1766
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fa13db4290281b0800000000000000
+      internalID: -5655948128626299023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_125
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1793
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ee25c98b5bcc0a0800000000000000
+      internalID: -6859908327890817400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_126
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1790
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b43a1e55fa6e3d70800000000000000
+      internalID: 9024768305375360177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_127
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1790
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac1fcd6d89c071f0800000000000000
+      internalID: -1049117103907464026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_128
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1788
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84de6473bb85151f0800000000000000
+      internalID: -1057966876345832120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_129
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1787
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8d256aff5a800a0800000000000000
+      internalID: -6915094710401705750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_130
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1782
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd423c51706a4cab0800000000000000
+      internalID: -4988679937859574564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_131
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1789
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff40aed54769ef10800000000000000
+      internalID: 2299482634534801402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_132
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1787
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a425f3ddc66cc7520800000000000000
+      internalID: 2701252047386137162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_133
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1788
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f6eabb2d9db840800000000000000
+      internalID: 5241518352473977930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_134
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1782
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe332e2bb521ae0800000000000000
+      internalID: -1580099695396262959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_135
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1784
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd225339ffb9bf30800000000000000
+      internalID: 4591912372109716984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_136
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1782
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581762ac8bb530e60800000000000000
+      internalID: 7927280618325832069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1786
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941f852dbd74b1d40800000000000000
+      internalID: 5556113574744093001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_138
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1784
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655eb4b13915241a0800000000000000
+      internalID: -6826804392880249514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_139
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1779
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef07ed4f3c39ab0800000000000000
+      internalID: -5002439304607105505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_140
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1782
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511366776e9462280800000000000000
+      internalID: -9068479545469423339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_141
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1786
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dd92235a2bc9b20800000000000000
+      internalID: 3142583062578715989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_142
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1778
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3a3c394d5d4fe20800000000000000
+      internalID: 3383564329050940360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_143
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1780
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505b26cfc7470d810800000000000000
+      internalID: 1788057132225180933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_144
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1776
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bd7541fd77eaa50800000000000000
+      internalID: 6534291909363882850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_145
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1777
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5839a021c0d57f0800000000000000
+      internalID: -622327901880875558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_146
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1772
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de52dd7cbf36938e0800000000000000
+      internalID: -1713228250196662803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_147
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1772
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773403d3aae763040800000000000000
+      internalID: 4627024936805876599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_148
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1769
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feb367c3124e2ff0800000000000000
+      internalID: -59037092392222990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_149
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1770
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347beaf6d8de0a190800000000000000
+      internalID: -7953095750216403133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_150
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1762
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7475ae84430a7ba00800000000000000
+      internalID: 772262007539390279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_151
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1747
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdd7aabccb7ed420800000000000000
+      internalID: 2656696949430279667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_152
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1747
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c0da51b6ee52a40800000000000000
+      internalID: 5342938676637535289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_153
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1752
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb52da4e77e669e0800000000000000
+      internalID: -1628359685640659987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_154
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1747
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd501f96c04ab660800000000000000
+      internalID: 7402300159353183686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_155
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1742
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009e6562b5999c2d0800000000000000
+      internalID: -3257904238661539584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_156
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1743
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f0d1057bebfc480800000000000000
+      internalID: -8876666645991583926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_157
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1749
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccee9c79e5cd0db0800000000000000
+      internalID: -4823982019235091253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_158
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1740
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc3dc938038996c0800000000000000
+      internalID: -4136130711410361157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_159
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1744
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e35e1872551ce460800000000000000
+      internalID: 7272210942243263460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_160
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1737
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc90e916757d2da0800000000000000
+      internalID: -5967984781095297834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_161
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1518
+        width: 521
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3103fae10ff1b4470800000000000000
+      internalID: 8379826647820349459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_162
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1524
+        width: 503
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9bc3442a2f22650800000000000000
+      internalID: 6206790015213418990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_163
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1564
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f707ce06d218cbb0800000000000000
+      internalID: -4915658282694670349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_164
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1523
+        width: 482
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee3ece1aa5435c70800000000000000
+      internalID: 8958580680733638382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_165
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1562
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3424d2a83bd8d5790800000000000000
+      internalID: -7539714398891457981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_166
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1161
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafffd8cad2beefc0800000000000000
+      internalID: -3463634410658594902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_167
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1148
+        width: 551
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f11d4b72653bd510800000000000000
+      internalID: 1574911191787835890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_168
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1152
+        width: 542
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5ed394df610d670800000000000000
+      internalID: 8561368168742643190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_169
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 915
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8f4ad460caf59c0800000000000000
+      internalID: -3936238406226085686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_170
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 576
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62d5fec2eb4234f0800000000000000
+      internalID: -850533942112693649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_171
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 596
+        width: 114
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b827ee8497a67cd0800000000000000
+      internalID: -2560675081619035982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_172
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 794
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834433b8e9874e770800000000000000
+      internalID: 8639162607539012664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_173
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 797
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d18f8a393767fbb0800000000000000
+      internalID: -4902336173876215344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_174
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 504
+        width: 49
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b61e6eafa2e2bcf0800000000000000
+      internalID: -237878586123610443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_175
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 524
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145962fab3e116e30800000000000000
+      internalID: 4494907144782910785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_176
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 543
+        width: 43
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d04027c268ffe220800000000000000
+      internalID: 2517503819854659795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_177
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 601
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a5ce44ece21c1f0800000000000000
+      internalID: -1026487776609281509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_178
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 540
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f176dfd6a6e6c6c0800000000000000
+      internalID: -4123354804416777739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_179
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 296
+        width: 163
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a0fa78570cb3ec0800000000000000
+      internalID: -3586061067250365928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_180
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 526
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b445bd5e8db64b400800000000000000
+      internalID: 339014451273094219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_181
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 475
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72755899626b7a60800000000000000
+      internalID: 7672834595822596734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_182
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 504
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0c1020355455f70800000000000000
+      internalID: 9175316038655525066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_183
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 498
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdb98e90b810ba60800000000000000
+      internalID: 7687671710774574529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_184
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 455
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb911fa85272e50800000000000000
+      internalID: 6784432642337651849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_185
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bc4bc06ca2de540800000000000000
+      internalID: 5038730588202519369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_186
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 461
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eadc51616b5a4f0800000000000000
+      internalID: -818047551326540193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_187
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 435
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4ac61f634f08df0800000000000000
+      internalID: -179875468278979412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_188
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 390
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805bc18fd50a1a240800000000000000
+      internalID: 4801295003208693000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_189
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 437
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e644619688b95b10800000000000000
+      internalID: 1970809200055699172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_190
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 421
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1e4b415b88bd940800000000000000
+      internalID: 5321997695986229731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_191
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 409
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb7ff10223f4dd0800000000000000
+      internalID: -2499724154610663486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_192
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 405
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d13149d7b6b070800000000000000
+      internalID: 8121881121738839452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_193
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 400
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339c517c927628650800000000000000
+      internalID: 6233658263365601587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_194
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 322
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e115312586f760640800000000000000
+      internalID: 5045860518545543454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_195
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 382
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3ba3c9b31874350800000000000000
+      internalID: 6000907121518621632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_196
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 342
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fd3b6824fcdc680800000000000000
+      internalID: -8733096217766797507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_197
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 337
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5b8c8b9c8e854e0800000000000000
+      internalID: -1992586882025212469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_198
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 315
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f500d7fc37981d0800000000000000
+      internalID: -3348017512980652150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_199
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 311
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737164e15b3ed1670800000000000000
+      internalID: 8511209237836601143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_200
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 300
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abc64b1281bf7cb0800000000000000
+      internalID: -4863973900175357023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_201
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 306
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2104173c5d366f390800000000000000
+      internalID: -7784925136105160686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_202
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 259
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57dadeaa0549d6f0800000000000000
+      internalID: -659419958247499939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_203
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcffddbb0da87980800000000000000
+      internalID: -8540886427366327086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_204
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 255
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f17f5f77a920cb0800000000000000
+      internalID: -4899183604607279266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_205
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 221
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6011e3ba44307f120800000000000000
+      internalID: 2447428515964784902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_206
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 34
+        width: 246
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ffe6c5752329c70800000000000000
+      internalID: 8976292358097141526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_207
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 222
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14bac0529dabcb80800000000000000
+      internalID: -8373408238233013221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_208
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 134
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d77599920a70190800000000000000
+      internalID: -7996246512846275233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_209
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 89
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6a6eb50a1cb35f0800000000000000
+      internalID: -775813616310507825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_210
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 189
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31181768f09007a4a94aa4e9ea4fcc95
+      internalID: -1548329420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_211
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 149
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3ec3efb626a1e438db5cc20a1e0294
+      internalID: 1730303147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_212
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267230e4915ab5b4d8a21b382b3bac3c
+      internalID: 2116407472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_213
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 111
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15a21e4de60edb4b85844543d624e88
+      internalID: -621931125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_214
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 119
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742ef26421ab894e90491e47ea1224c
+      internalID: 133737084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_215
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 64
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fff09d70c51e647a5b0be9919bc379
+      internalID: -2147092255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_216
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 8
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dec386800016964893627c65d6691d0
+      internalID: -1237349026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_217
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 58
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bf3c84f0ebd56438f51fc7874e6ac5
+      internalID: -253359943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 140c9f20f56950b4eba3b03d3c074e8d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yellow_eyed_demon_0: 603732332269990401
+      yellow_eyed_demon_1: -4477878848872814300
+      yellow_eyed_demon_10: 2107224908307011549
+      yellow_eyed_demon_100: -4786357426050407072
+      yellow_eyed_demon_101: -1097729939600032701
+      yellow_eyed_demon_102: 685928528799027012
+      yellow_eyed_demon_103: -2040549753407512342
+      yellow_eyed_demon_104: 1622615894554580809
+      yellow_eyed_demon_105: -8250940308722747167
+      yellow_eyed_demon_106: 1160701519071815889
+      yellow_eyed_demon_107: -6377082412959989634
+      yellow_eyed_demon_108: -6540412355142857040
+      yellow_eyed_demon_109: 6463078053252253735
+      yellow_eyed_demon_11: 1868796137195567690
+      yellow_eyed_demon_110: 724288308629758192
+      yellow_eyed_demon_111: -979736766754703007
+      yellow_eyed_demon_112: -2250253330665422476
+      yellow_eyed_demon_113: -705165885852751090
+      yellow_eyed_demon_114: 643647176972074938
+      yellow_eyed_demon_115: -3753843642913476997
+      yellow_eyed_demon_116: 8822222234364936387
+      yellow_eyed_demon_117: -179799472034717105
+      yellow_eyed_demon_118: 1272795637975710098
+      yellow_eyed_demon_119: -4845723744283463393
+      yellow_eyed_demon_12: -3383289724901745158
+      yellow_eyed_demon_120: 298525897441107832
+      yellow_eyed_demon_121: -8993973519891089738
+      yellow_eyed_demon_122: -1917455918840669408
+      yellow_eyed_demon_123: 7920796927228382822
+      yellow_eyed_demon_124: -5655948128626299023
+      yellow_eyed_demon_125: -6859908327890817400
+      yellow_eyed_demon_126: 9024768305375360177
+      yellow_eyed_demon_127: -1049117103907464026
+      yellow_eyed_demon_128: -1057966876345832120
+      yellow_eyed_demon_129: -6915094710401705750
+      yellow_eyed_demon_13: 4667835841374406672
+      yellow_eyed_demon_130: -4988679937859574564
+      yellow_eyed_demon_131: 2299482634534801402
+      yellow_eyed_demon_132: 2701252047386137162
+      yellow_eyed_demon_133: 5241518352473977930
+      yellow_eyed_demon_134: -1580099695396262959
+      yellow_eyed_demon_135: 4591912372109716984
+      yellow_eyed_demon_136: 7927280618325832069
+      yellow_eyed_demon_137: 5556113574744093001
+      yellow_eyed_demon_138: -6826804392880249514
+      yellow_eyed_demon_139: -5002439304607105505
+      yellow_eyed_demon_14: -7259163474474755683
+      yellow_eyed_demon_140: -9068479545469423339
+      yellow_eyed_demon_141: 3142583062578715989
+      yellow_eyed_demon_142: 3383564329050940360
+      yellow_eyed_demon_143: 1788057132225180933
+      yellow_eyed_demon_144: 6534291909363882850
+      yellow_eyed_demon_145: -622327901880875558
+      yellow_eyed_demon_146: -1713228250196662803
+      yellow_eyed_demon_147: 4627024936805876599
+      yellow_eyed_demon_148: -59037092392222990
+      yellow_eyed_demon_149: -7953095750216403133
+      yellow_eyed_demon_15: -2115853659519332198
+      yellow_eyed_demon_150: 772262007539390279
+      yellow_eyed_demon_151: 2656696949430279667
+      yellow_eyed_demon_152: 5342938676637535289
+      yellow_eyed_demon_153: -1628359685640659987
+      yellow_eyed_demon_154: 7402300159353183686
+      yellow_eyed_demon_155: -3257904238661539584
+      yellow_eyed_demon_156: -8876666645991583926
+      yellow_eyed_demon_157: -4823982019235091253
+      yellow_eyed_demon_158: -4136130711410361157
+      yellow_eyed_demon_159: 7272210942243263460
+      yellow_eyed_demon_16: -2478521226762545428
+      yellow_eyed_demon_160: -5967984781095297834
+      yellow_eyed_demon_161: 8379826647820349459
+      yellow_eyed_demon_162: 6206790015213418990
+      yellow_eyed_demon_163: -4915658282694670349
+      yellow_eyed_demon_164: 8958580680733638382
+      yellow_eyed_demon_165: -7539714398891457981
+      yellow_eyed_demon_166: -3463634410658594902
+      yellow_eyed_demon_167: 1574911191787835890
+      yellow_eyed_demon_168: 8561368168742643190
+      yellow_eyed_demon_169: -3936238406226085686
+      yellow_eyed_demon_17: 4381884044118878640
+      yellow_eyed_demon_170: -850533942112693649
+      yellow_eyed_demon_171: -2560675081619035982
+      yellow_eyed_demon_172: 8639162607539012664
+      yellow_eyed_demon_173: -4902336173876215344
+      yellow_eyed_demon_174: -237878586123610443
+      yellow_eyed_demon_175: 4494907144782910785
+      yellow_eyed_demon_176: 2517503819854659795
+      yellow_eyed_demon_177: -1026487776609281509
+      yellow_eyed_demon_178: -4123354804416777739
+      yellow_eyed_demon_179: -3586061067250365928
+      yellow_eyed_demon_18: -3884053137429142140
+      yellow_eyed_demon_180: 339014451273094219
+      yellow_eyed_demon_181: 7672834595822596734
+      yellow_eyed_demon_182: 9175316038655525066
+      yellow_eyed_demon_183: 7687671710774574529
+      yellow_eyed_demon_184: 6784432642337651849
+      yellow_eyed_demon_185: 5038730588202519369
+      yellow_eyed_demon_186: -818047551326540193
+      yellow_eyed_demon_187: -179875468278979412
+      yellow_eyed_demon_188: 4801295003208693000
+      yellow_eyed_demon_189: 1970809200055699172
+      yellow_eyed_demon_19: 1112218441686860600
+      yellow_eyed_demon_190: 5321997695986229731
+      yellow_eyed_demon_191: -2499724154610663486
+      yellow_eyed_demon_192: 8121881121738839452
+      yellow_eyed_demon_193: 6233658263365601587
+      yellow_eyed_demon_194: 5045860518545543454
+      yellow_eyed_demon_195: 6000907121518621632
+      yellow_eyed_demon_196: -8733096217766797507
+      yellow_eyed_demon_197: -1992586882025212469
+      yellow_eyed_demon_198: -3348017512980652150
+      yellow_eyed_demon_199: 8511209237836601143
+      yellow_eyed_demon_2: 6279486493099537650
+      yellow_eyed_demon_20: 9097150458510464858
+      yellow_eyed_demon_200: -4863973900175357023
+      yellow_eyed_demon_201: -7784925136105160686
+      yellow_eyed_demon_202: -659419958247499939
+      yellow_eyed_demon_203: -8540886427366327086
+      yellow_eyed_demon_204: -4899183604607279266
+      yellow_eyed_demon_205: 2447428515964784902
+      yellow_eyed_demon_206: 8976292358097141526
+      yellow_eyed_demon_207: -8373408238233013221
+      yellow_eyed_demon_208: -7996246512846275233
+      yellow_eyed_demon_209: -775813616310507825
+      yellow_eyed_demon_21: -3318506190742037133
+      yellow_eyed_demon_210: -1548329420
+      yellow_eyed_demon_211: 1730303147
+      yellow_eyed_demon_212: 2116407472
+      yellow_eyed_demon_213: -621931125
+      yellow_eyed_demon_214: 133737084
+      yellow_eyed_demon_215: -2147092255
+      yellow_eyed_demon_216: -1237349026
+      yellow_eyed_demon_217: -253359943
+      yellow_eyed_demon_22: -3580363779278961905
+      yellow_eyed_demon_23: -1506079254257143448
+      yellow_eyed_demon_24: -3114909380093114720
+      yellow_eyed_demon_25: -7409795542586735938
+      yellow_eyed_demon_26: -2909975612212887260
+      yellow_eyed_demon_27: 1146837410508390973
+      yellow_eyed_demon_28: -4733153893785759817
+      yellow_eyed_demon_29: -6983558672573348671
+      yellow_eyed_demon_3: 4079221899425592241
+      yellow_eyed_demon_30: 2412646607214722187
+      yellow_eyed_demon_31: -3984800146982009564
+      yellow_eyed_demon_32: 3668415991672743051
+      yellow_eyed_demon_33: -2116090835080703077
+      yellow_eyed_demon_34: -6618636557781345940
+      yellow_eyed_demon_35: 5678809677150155796
+      yellow_eyed_demon_36: -6718320609477037804
+      yellow_eyed_demon_37: -4514535773618530486
+      yellow_eyed_demon_38: -6131378712507629301
+      yellow_eyed_demon_39: 2818177226177630226
+      yellow_eyed_demon_4: 4432952621352783148
+      yellow_eyed_demon_40: -6539927565820929543
+      yellow_eyed_demon_41: 1208147614923998087
+      yellow_eyed_demon_42: -6994256675649591000
+      yellow_eyed_demon_43: -2730372697497092898
+      yellow_eyed_demon_44: 545494431612555976
+      yellow_eyed_demon_45: 6392455144900522782
+      yellow_eyed_demon_46: -760651039525174033
+      yellow_eyed_demon_47: 2532082374831459532
+      yellow_eyed_demon_48: 6690499780057290711
+      yellow_eyed_demon_49: 5409741842992885391
+      yellow_eyed_demon_5: -562009328155341940
+      yellow_eyed_demon_50: -7719433589115594850
+      yellow_eyed_demon_51: -1333108811346313938
+      yellow_eyed_demon_52: -5709353469538250192
+      yellow_eyed_demon_53: 536562120497175844
+      yellow_eyed_demon_54: 6402046685437360406
+      yellow_eyed_demon_55: -6940290468222377829
+      yellow_eyed_demon_56: 8784778999172715536
+      yellow_eyed_demon_57: -4772493483092876100
+      yellow_eyed_demon_58: 2121960003436343917
+      yellow_eyed_demon_59: -4759958984692417665
+      yellow_eyed_demon_6: 9039868973058836921
+      yellow_eyed_demon_60: 2269902767498712539
+      yellow_eyed_demon_61: -5355115409242980968
+      yellow_eyed_demon_62: 7253756598679612584
+      yellow_eyed_demon_63: -4388457743411296771
+      yellow_eyed_demon_64: 1016946157271255049
+      yellow_eyed_demon_65: -5980981117334693454
+      yellow_eyed_demon_66: -8924083015737786364
+      yellow_eyed_demon_67: 3574511477061819878
+      yellow_eyed_demon_68: -5606591198231383462
+      yellow_eyed_demon_69: -3382268382302035795
+      yellow_eyed_demon_7: 6317621065102836550
+      yellow_eyed_demon_70: -6365358271408369609
+      yellow_eyed_demon_71: -8496258979177547113
+      yellow_eyed_demon_72: -7334837202900379827
+      yellow_eyed_demon_73: -6660374522203790436
+      yellow_eyed_demon_74: 4706377082515341244
+      yellow_eyed_demon_75: 5409975274408405289
+      yellow_eyed_demon_76: -4682818823952074012
+      yellow_eyed_demon_77: -726945936263148089
+      yellow_eyed_demon_78: 2390229851698972556
+      yellow_eyed_demon_79: 6532688634127074461
+      yellow_eyed_demon_8: 2288935611766950829
+      yellow_eyed_demon_80: -3064567791035700468
+      yellow_eyed_demon_81: -5721256294187112993
+      yellow_eyed_demon_82: 738849853210943310
+      yellow_eyed_demon_83: 186193289056982506
+      yellow_eyed_demon_84: -8997521039636242458
+      yellow_eyed_demon_85: 8716351656052290088
+      yellow_eyed_demon_86: 5389524030762472578
+      yellow_eyed_demon_87: 4825168750351757988
+      yellow_eyed_demon_88: -7623031269994232925
+      yellow_eyed_demon_89: -3784565596333787131
+      yellow_eyed_demon_9: 2710843258380538500
+      yellow_eyed_demon_90: 3889039634444715370
+      yellow_eyed_demon_91: 5582710849132882792
+      yellow_eyed_demon_92: -6030178804512939876
+      yellow_eyed_demon_93: 5147478354074391612
+      yellow_eyed_demon_94: 4599708890616854392
+      yellow_eyed_demon_95: -408741999767235122
+      yellow_eyed_demon_96: 6032486220656920261
+      yellow_eyed_demon_97: -603663999161534213
+      yellow_eyed_demon_98: 669705317729439282
+      yellow_eyed_demon_99: -2738622184711590148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

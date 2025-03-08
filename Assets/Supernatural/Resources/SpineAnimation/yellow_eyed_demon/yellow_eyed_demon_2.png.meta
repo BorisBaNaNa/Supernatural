@@ -1,0 +1,1110 @@
+fileFormatVersion: 2
+guid: d5c10742356fa7742b7ebf3020e6b6b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6717370258207532201
+    second: yellow_eyed_demon_2_0
+  - first:
+      213: -191246103619662413
+    second: yellow_eyed_demon_2_1
+  - first:
+      213: 2846992629809039841
+    second: yellow_eyed_demon_2_2
+  - first:
+      213: 1755253111624967422
+    second: yellow_eyed_demon_2_3
+  - first:
+      213: 3451636249491502563
+    second: yellow_eyed_demon_2_4
+  - first:
+      213: 303068806891160603
+    second: yellow_eyed_demon_2_5
+  - first:
+      213: 8290016365287900917
+    second: yellow_eyed_demon_2_6
+  - first:
+      213: -4103947755313963469
+    second: yellow_eyed_demon_2_7
+  - first:
+      213: 5075555953865799539
+    second: yellow_eyed_demon_2_8
+  - first:
+      213: 7426594137430764208
+    second: yellow_eyed_demon_2_9
+  - first:
+      213: 2238479178273984423
+    second: yellow_eyed_demon_2_10
+  - first:
+      213: 6322842059144115480
+    second: yellow_eyed_demon_2_11
+  - first:
+      213: -1137819359161924671
+    second: yellow_eyed_demon_2_12
+  - first:
+      213: 2865215973784473712
+    second: yellow_eyed_demon_2_13
+  - first:
+      213: -6643268479580731748
+    second: yellow_eyed_demon_2_14
+  - first:
+      213: 7054497202604721358
+    second: yellow_eyed_demon_2_15
+  - first:
+      213: -1165508970899541989
+    second: yellow_eyed_demon_2_16
+  - first:
+      213: -6235190704765973929
+    second: yellow_eyed_demon_2_17
+  - first:
+      213: -7140582875278983432
+    second: yellow_eyed_demon_2_18
+  - first:
+      213: 6956053651749414623
+    second: yellow_eyed_demon_2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: -0.5
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1832
+        width: 529
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b14ce175b17c2a0800000000000000
+      internalID: -6717370258207532201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1832
+        width: 478
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd82199eae885df0800000000000000
+      internalID: -191246103619662413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1832
+        width: 376
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e94ce976bc828720800000000000000
+      internalID: 2846992629809039841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_3
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1832
+        width: 405
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef42e41c769eb5810800000000000000
+      internalID: 1755253111624967422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_4
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1832
+        width: 186
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e57dc0a1eca6ef20800000000000000
+      internalID: 3451636249491502563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1606
+        width: 345
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14cf316977b43400800000000000000
+      internalID: 303068806891160603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_6
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1606
+        width: 323
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6092b36fd0c0370800000000000000
+      internalID: 8290016365287900917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_7
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1606
+        width: 306
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33edfbb9249db07c0800000000000000
+      internalID: -4103947755313963469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1245
+        width: 399
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3773ac3af3fff6640800000000000000
+      internalID: 5075555953865799539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_9
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1245
+        width: 382
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba2f8c2500901760800000000000000
+      internalID: 7426594137430764208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_10
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1245
+        width: 361
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af0122e3fca01f10800000000000000
+      internalID: 2238479178273984423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 883
+        width: 452
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8153f2a5a5f3fb750800000000000000
+      internalID: 6322842059144115480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_12
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 882
+        width: 438
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3479e3257a530f0800000000000000
+      internalID: -1137819359161924671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 883
+        width: 417
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070d2326fba43c720800000000000000
+      internalID: 2865215973784473712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 523
+        width: 516
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c968a0fe38e5ec3a0800000000000000
+      internalID: -6643268479580731748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_15
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 522
+        width: 493
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4cd3654db96e160800000000000000
+      internalID: 7054497202604721358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_16
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 522
+        width: 473
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10700f14c743dfe0800000000000000
+      internalID: -1165508970899541989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 162
+        width: 555
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a4b97e6172879a0800000000000000
+      internalID: -6235190704765973929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_18
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 174
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe32c515bd87ec90800000000000000
+      internalID: -7140582875278983432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_eyed_demon_2_19
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 162
+        width: 534
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6251701fdd88060800000000000000
+      internalID: 6956053651749414623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/attack/4
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1833
+        width: 403
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/attack/5
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1833
+        width: 476
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/attack/6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1833
+        width: 527
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/attack2/1
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1833
+        width: 184
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/attack2/2
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1833
+        width: 374
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1471
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1471
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1471
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/20
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1109
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1109
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1109
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/23
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 747
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/24
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 747
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 747
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/26
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 385
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/27
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 385
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 385
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/29
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 23
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 23
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx/death/30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx/attack/4: 0
+      vfx/attack/5: 0
+      vfx/attack/6: 0
+      vfx/attack2/1: 0
+      vfx/attack2/2: 0
+      vfx/death/17: 0
+      vfx/death/18: 0
+      vfx/death/19: 0
+      vfx/death/20: 0
+      vfx/death/21: 0
+      vfx/death/22: 0
+      vfx/death/23: 0
+      vfx/death/24: 0
+      vfx/death/25: 0
+      vfx/death/26: 0
+      vfx/death/27: 0
+      vfx/death/28: 0
+      vfx/death/29: 0
+      vfx/death/3: 0
+      vfx/death/30: 0
+      yellow_eyed_demon_2_0: -6717370258207532201
+      yellow_eyed_demon_2_1: -191246103619662413
+      yellow_eyed_demon_2_10: 2238479178273984423
+      yellow_eyed_demon_2_11: 6322842059144115480
+      yellow_eyed_demon_2_12: -1137819359161924671
+      yellow_eyed_demon_2_13: 2865215973784473712
+      yellow_eyed_demon_2_14: -6643268479580731748
+      yellow_eyed_demon_2_15: 7054497202604721358
+      yellow_eyed_demon_2_16: -1165508970899541989
+      yellow_eyed_demon_2_17: -6235190704765973929
+      yellow_eyed_demon_2_18: -7140582875278983432
+      yellow_eyed_demon_2_19: 6956053651749414623
+      yellow_eyed_demon_2_2: 2846992629809039841
+      yellow_eyed_demon_2_3: 1755253111624967422
+      yellow_eyed_demon_2_4: 3451636249491502563
+      yellow_eyed_demon_2_5: 303068806891160603
+      yellow_eyed_demon_2_6: 8290016365287900917
+      yellow_eyed_demon_2_7: -4103947755313963469
+      yellow_eyed_demon_2_8: 5075555953865799539
+      yellow_eyed_demon_2_9: 7426594137430764208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: aca46f7427d8d824d8242581be735613
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1045766198252124516
+    second: white_woman_8_0
+  - first:
+      213: -7014093444982486556
+    second: white_woman_8_1
+  - first:
+      213: 6843306149946078562
+    second: white_woman_8_2
+  - first:
+      213: -6662378145540519097
+    second: white_woman_8_3
+  - first:
+      213: -1733418132535009611
+    second: white_woman_8_4
+  - first:
+      213: 6073110861735282266
+    second: white_woman_8_5
+  - first:
+      213: -394031215038637460
+    second: white_woman_8_6
+  - first:
+      213: -1810396456630558269
+    second: white_woman_8_7
+  - first:
+      213: -2748782028810429638
+    second: white_woman_8_8
+  - first:
+      213: 8662141409382441345
+    second: white_woman_8_9
+  - first:
+      213: -5881998908021422261
+    second: white_woman_8_10
+  - first:
+      213: 4840704410893004475
+    second: white_woman_8_11
+  - first:
+      213: -43624331130140162
+    second: white_woman_8_12
+  - first:
+      213: -6780656328736985170
+    second: white_woman_8_13
+  - first:
+      213: 1702415569606937708
+    second: white_woman_8_14
+  - first:
+      213: 1828519519928740738
+    second: white_woman_8_15
+  - first:
+      213: 509161736381036992
+    second: white_woman_8_16
+  - first:
+      213: 7088300741001914698
+    second: white_woman_8_17
+  - first:
+      213: -5358927682350364223
+    second: white_woman_8_18
+  - first:
+      213: 6014717883098335815
+    second: white_woman_8_19
+  - first:
+      213: -1718066397832158249
+    second: white_woman_8_20
+  - first:
+      213: 1283199764892753150
+    second: white_woman_8_21
+  - first:
+      213: 352656958106527672
+    second: white_woman_8_22
+  - first:
+      213: -2214943324723675194
+    second: white_woman_8_23
+  - first:
+      213: -786590583952737622
+    second: white_woman_8_24
+  - first:
+      213: -719142389444446950
+    second: white_woman_8_25
+  - first:
+      213: 6922479207969171493
+    second: white_woman_8_26
+  - first:
+      213: -4227130682614247851
+    second: white_woman_8_27
+  - first:
+      213: -8130428688848563298
+    second: white_woman_8_28
+  - first:
+      213: -5085243200182223297
+    second: white_woman_8_29
+  - first:
+      213: 2915904991219468856
+    second: white_woman_8_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: white_woman_8_0
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1479
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c964213fe21bc71f0800000000000000
+      internalID: -1045766198252124516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1252
+        width: 410
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e94c6e8c2fe8ae90800000000000000
+      internalID: -7014093444982486556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_2
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1255
+        width: 416
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26538cc9fae48fe50800000000000000
+      internalID: 6843306149946078562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1378
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b4bbb106a7a83a0800000000000000
+      internalID: -6662378145540519097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_4
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1370
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be970b7469a1f7e0800000000000000
+      internalID: -1733418132535009611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1246
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a564c4be626084450800000000000000
+      internalID: 6073110861735282266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1253
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ad43592be188af0800000000000000
+      internalID: -394031215038637460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_7
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1248
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1e8ebb30e20e6e0800000000000000
+      internalID: -1810396456630558269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 716
+        width: 419
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd6c7fe4d5ad9d0800000000000000
+      internalID: -2748782028810429638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 709
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1812174c7bb163870800000000000000
+      internalID: 8662141409382441345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 708
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47c5264821fe5ea0800000000000000
+      internalID: -5881998908021422261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_11
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 715
+        width: 416
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea1f9b303ad2340800000000000000
+      internalID: 4840704410893004475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_12
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 705
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef98c67e6e3056ff0800000000000000
+      internalID: -43624331130140162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 711
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafa0a59ef446e1a0800000000000000
+      internalID: -6780656328736985170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_14
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 710
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c0486d0f130a710800000000000000
+      internalID: 1702415569606937708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 178
+        width: 434
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b6832c0d4306910800000000000000
+      internalID: 1828519519928740738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 185
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9763ec6e7e01700800000000000000
+      internalID: 509161736381036992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 173
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49ae80f7f3be5260800000000000000
+      internalID: 7088300741001914698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_18
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 211
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9cf7c6aa341a5b0800000000000000
+      internalID: -5358927682350364223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 181
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a044e1c02987350800000000000000
+      internalID: 6014717883098335815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 188
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3eda0c6b33828e0800000000000000
+      internalID: -1718066397832158249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_21
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 202
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc1c423367dec110800000000000000
+      internalID: 1283199764892753150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 178
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7628b82a3e4e400800000000000000
+      internalID: 352656958106527672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_23
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 215
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cff83c08c0f241e0800000000000000
+      internalID: -2214943324723675194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_24
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 165
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa74db08087515f0800000000000000
+      internalID: -786590583952737622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15fc369ec71506f0800000000000000
+      internalID: -719142389444446950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 189
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a70ca926911060800000000000000
+      internalID: 6922479207969171493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_27
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 175
+        width: 426
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e8f9b5a073655c0800000000000000
+      internalID: -4227130682614247851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_28
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 170
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9359813f2aea2f80800000000000000
+      internalID: -8130428688848563298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_29
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 174
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3efaa090469d69b0800000000000000
+      internalID: -5085243200182223297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_woman_8_30
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 166
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83acc60f320677820800000000000000
+      internalID: 2915904991219468856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      white_woman_8_0: -1045766198252124516
+      white_woman_8_1: -7014093444982486556
+      white_woman_8_10: -5881998908021422261
+      white_woman_8_11: 4840704410893004475
+      white_woman_8_12: -43624331130140162
+      white_woman_8_13: -6780656328736985170
+      white_woman_8_14: 1702415569606937708
+      white_woman_8_15: 1828519519928740738
+      white_woman_8_16: 509161736381036992
+      white_woman_8_17: 7088300741001914698
+      white_woman_8_18: -5358927682350364223
+      white_woman_8_19: 6014717883098335815
+      white_woman_8_2: 6843306149946078562
+      white_woman_8_20: -1718066397832158249
+      white_woman_8_21: 1283199764892753150
+      white_woman_8_22: 352656958106527672
+      white_woman_8_23: -2214943324723675194
+      white_woman_8_24: -786590583952737622
+      white_woman_8_25: -719142389444446950
+      white_woman_8_26: 6922479207969171493
+      white_woman_8_27: -4227130682614247851
+      white_woman_8_28: -8130428688848563298
+      white_woman_8_29: -5085243200182223297
+      white_woman_8_3: -6662378145540519097
+      white_woman_8_30: 2915904991219468856
+      white_woman_8_4: -1733418132535009611
+      white_woman_8_5: 6073110861735282266
+      white_woman_8_6: -394031215038637460
+      white_woman_8_7: -1810396456630558269
+      white_woman_8_8: -2748782028810429638
+      white_woman_8_9: 8662141409382441345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

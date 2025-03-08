@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: yellow_eyed_demon_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 10672cf098ce39d46b67f1b40d6ba486, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 14d89f1c0f3096d419ebbbfd5964199c, type: 2}
+  - {fileID: 2100000, guid: d4340b1d3b43c844197c6723201ceafa, type: 2}
+  - {fileID: 2100000, guid: a431a00b2add6f54a9b7375d4f075afd, type: 2}
+  - {fileID: 2100000, guid: 640d563a823118546aa1e93adefdf54b, type: 2}
+  - {fileID: 2100000, guid: 3d3d9e7e211a02b42b4b0d14c9fb87ab, type: 2}
