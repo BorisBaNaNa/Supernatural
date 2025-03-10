@@ -1,7 +1,11 @@
-﻿using Assets.Supernatural.Scripts.Infrastructure;
+﻿using Assets.Supernatural.Scripts.AnimStateMachine;
+using Assets.Supernatural.Scripts.Infrastructure;
 using Assets.Supernatural.Scripts.Interfaces;
+using Assets.Supernatural.Scripts.Player.AnimationStates;
 using Assets.Supernatural.Scripts.Player.Controllers;
 using SoundSystem.Scripts.Infrastructure.Manages;
+using Spine.Unity;
+using System;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player
@@ -12,11 +16,14 @@ namespace Assets.Supernatural.Scripts.Player
         [SerializeField] private PleyerHealthController _healthController;
         [SerializeField] private PlayerMovementController _movementController;
         [SerializeField] private PlayerAttackController _attackController;
+        [SerializeField] private SkeletonAnimation _skeletonAnimation;
 
         private AudioSource _soundFxSource;
         private SoundGroupsController _soundController;
         private IPlayerInputController _inputController;
-        //private PlayerStateMachine _stateMachine;
+        private AnimationStateMachine _stateMachine;
+
+        private const int MAIN_ANIM_TRACK_INDEX = 0;
 
         public void Awake()
         {
@@ -43,13 +50,19 @@ namespace Assets.Supernatural.Scripts.Player
         #region Init
         private void Initialize()
         {
+            InitializeStateMachine();
             InitializeSoundSystem();
             _healthController.Initialize();
 
             _inputController = ServiceLocator.GetService<IPlayerInputController>();
             _inputController.Initialize();
-            _movementController.Initialize(_inputController);
-            _attackController.Initialize(_inputController);
+            _movementController.Initialize(_inputController, _skeletonAnimation);
+            _attackController.Initialize(_inputController, _skeletonAnimation);
+        }
+
+        private void InitializeStateMachine()
+        {
+            _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
         }
 
         private void InitializeSoundSystem()

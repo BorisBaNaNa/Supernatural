@@ -1,5 +1,8 @@
-﻿using Assets.Supernatural.Scripts.Interfaces;
+﻿using Assets.Supernatural.Scripts.AnimStateMachine;
+using Assets.Supernatural.Scripts.Interfaces;
+using Assets.Supernatural.Scripts.Player.AnimationStates;
 using Assets.Supernatural.Scripts.Player.Controllers.Controller2D;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player.Controllers
@@ -58,12 +61,14 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private Vector2 velocity;
         private Vector2 _moveDir;
 
-        private float accelerationTimeAirborne = .2f;
-        private float accelerationTimeGrounded = .1f;
+        private AnimationStateMachine _stateMachine;
         private PlayerController2D controller;
         private IPlayerInputController _playerInputs;
+        private float accelerationTimeAirborne = .2f;
+        private float accelerationTimeGrounded = .1f;
         private bool _isInit;
-        //private PlayerStateMachine _stateMachine;
+
+        private const int MAIN_ANIM_TRACK_INDEX = 1;
 
         public void OnEnable()
         {
@@ -99,7 +104,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _playerInputs.OnJumpOffPerformed -= JumpOff;
         }
 
-        public void Initialize(IPlayerInputController inputs)
+        public void Initialize(IPlayerInputController inputs, Spine.Unity.SkeletonAnimation _skeletonAnimation)
         {
             _playerInputs = inputs;
             _playerInputs.EnableMovement();
@@ -109,8 +114,8 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             controller = GetComponent<PlayerController2D>();
             _gravity = -(2 * MaxJumpHeight) / Mathf.Pow(TimeToJumpApex, 2);
             _isInit = true;
-            //_stateMachine = new(this);
-            //_stateMachine.StateSwitch<IdleState>();
+
+            InitializeStateMachine(_skeletonAnimation);
         }
 
         public void SetDamageImpulse(Transform instigator)
@@ -185,6 +190,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             controller.Move(velocity * Time.deltaTime, _moveDir);
             if (controller.collisions.above || IsGrounded)
                 velocity.y = 0;
+        }
+
+        private void InitializeStateMachine(Spine.Unity.SkeletonAnimation _skeletonAnimation)
+        {
+            _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
+            _stateMachine.AddState<IdleState>(new IdleState());
         }
     }
 }

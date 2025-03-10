@@ -12,6 +12,8 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private IPlayerInputController _playerInputs;
         private bool _isInit;
 
+        private const int MAIN_ANIM_TRACK_INDEX = 2;
+
         private void Start()
         {
             _playerInputs.OnRangeAttackPerformed += RangeAttack;
@@ -45,7 +47,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             //_playerInputs.Player.OnMeleeAttackPerformed.performed -= OnMeleeAttackPerformed;
         }
 
-        public void Initialize(IPlayerInputController inputs)
+        public void Initialize(IPlayerInputController inputs, Spine.Unity.SkeletonAnimation _skeletonAnimation)
         {
             _playerInputs = inputs;
             _playerInputs.EnableAttack();
