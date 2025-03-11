@@ -2,8 +2,6 @@
 using Assets.Supernatural.Scripts.Interfaces;
 using Assets.Supernatural.Scripts.Player.AnimationStates.Movement;
 using Assets.Supernatural.Scripts.Player.Controllers.Controller2D;
-using System;
-using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player.Controllers
@@ -23,19 +21,16 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             }
         }
 
-        //[Header("Animations")]
-        //[SerializeField] private PlayerAnimController AnimController;
-
         [Header("Moving")]
         [SerializeField] private float moveSpeed = 3;
 
         [Header("OnJumpPerformed")]
-        [SerializeField] private float JumpDelay = 0.1f;
-        [SerializeField] private float MaxJumpHeight = 3;
-        [SerializeField] private float MinJumpHeight = 1;
-        [SerializeField] private float TimeToJumpApex = .4f;
-        [SerializeField] private int NumberOfJumpMax = 1;
-        [SerializeField] private GameObject JumpEffect;
+        [SerializeField] private float _jumpDelay = 0.1f;
+        [SerializeField] private float _maxJumpHeight = 3;
+        [SerializeField] private float _minJumpHeight = 1;
+        [SerializeField] private float _timeToJumpApex = .4f;
+        [SerializeField] private int _maxJumpCount = 2;
+        [SerializeField] private GameObject _jumpEffect;
 
         [Header("Wall SlideFaceToWall")]
         [SerializeField] private Transform SlidePoint;
@@ -59,6 +54,9 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
 
         private float velocityXSmoothing;
         private float _gravity;
+        private float _maxJumpVelocity;
+        private float _minJumpVelocity;
+        private int _jumpCount;
         private bool _wasGrounded;
         private bool _isHardLand;
         private bool _isInit;
@@ -82,7 +80,6 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
                 return;
 
             _playerInputs.EnableMovement();
-            //_playerInputs.Player.Move.Enable();
         }
 
         public void Update()
@@ -103,7 +100,6 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         public void OnDisable()
         {
             _playerInputs.DisableMovement();
-            //_playerInputs.Player.Move.Disable();
         }
 
         private void OnDestroy()
@@ -120,10 +116,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _playerInputs.OnJumpOffPerformed += JumpOff;
 
             controller = GetComponent<PlayerController2D>();
-            _gravity = -(2 * MaxJumpHeight) / Mathf.Pow(TimeToJumpApex, 2);
-            _isInit = true;
+            _gravity = -(2 * _maxJumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
+            _maxJumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
+            _minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(_gravity) * _minJumpHeight);
 
             InitializeStateMachine(_skeletonAnimation);
+            _isInit = true;
         }
 
         public void SetDamageImpulse(Transform instigator)
@@ -153,19 +151,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _stateMachine.AddState<IdleState>(new IdleState(_animationsReferences));
             _stateMachine.AddState<WalkState>(new WalkState(_animationsReferences));
             _stateMachine.AddState<CrouchState>(new CrouchState(_animationsReferences));
-        }
-
-        private void Jump()
-        {
-            controller.IsJumpKeyPressed = true;
-            //if (_inputDir.y >= 0)
-            //    _animStateMachine.StateSwitch<JumpState>();
-        }
-
-        private void JumpOff()
-        {
-            controller.IsJumpKeyPressed = false;
-            //AllServices.Instance.GetService<JumpState>().JumpOff();
+            _stateMachine.AddState<JumpState>(new JumpState(_animationsReferences));
         }
 
         private void HandleInput()
@@ -212,7 +198,10 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             controller.Move(_velocity * Time.deltaTime, _inputDir);
 
             if (controller.collisions.above || IsGrounded)
+            {
                 _velocity.y = 0;
+                _jumpCount = 0;
+            }
         }
 
         private void StatesControl()
@@ -239,5 +228,65 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _wasGrounded = IsGrounded;
             _wasCrouched = _isCrouching;
         }
+
+        public void Jump()
+        {
+            controller.IsJumpKeyPressed = true;
+
+            if (IsSliding)
+                JumpSliding();
+            else if (IsGrounded || _jumpCount < _maxJumpCount)
+            {
+                float jumpVelocity = _jumpCount == 0 && IsGrounded ? _maxJumpVelocity : _minJumpVelocity;
+                Jump(jumpVelocity);
+            }
+        }
+
+        public void JumpOff()
+        {
+            controller.IsJumpKeyPressed = false;
+
+            if (_velocity.y > _minJumpVelocity)
+                _velocity.y = _minJumpVelocity;
+        }
+
+        private void Jump(float jumpVelocity)
+        {
+            if (IsGrounded)
+                _jumpCount++;
+            else
+                _jumpCount = _maxJumpCount;
+
+            _stateMachine.StateSwitch<JumpState>();
+            _velocity.y = jumpVelocity;
+
+            if (_jumpEffect != null)
+                Object.Instantiate(_jumpEffect, transform.position, transform.rotation);
+            //SoundManager.PlaySfx(_player.jumpSound);
+        }
+
+        private void JumpSliding()
+        {
+            if (_inputDir.x == WallDirX)
+            {
+                _velocity.x = -WallDirX * wallJumpClimb.x;
+                _velocity.y = wallJumpClimb.y;
+            }
+            else if (_inputDir.x == 0)
+            {
+                _velocity.x = -WallDirX * wallJumpOff.x;
+                _velocity.y = wallJumpOff.y;
+                Flip();
+            }
+            else
+            {
+                _velocity.x = -WallDirX * wallLeap.x;
+                _velocity.y = wallLeap.y;
+            }
+
+            _jumpCount = _maxJumpCount;
+            //SoundManager.PlaySfx(jumpSound);
+        }
+
     }
 }
