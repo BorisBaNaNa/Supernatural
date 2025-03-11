@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3f740c40f794840a9cc14dd5e85f08, type: 3}
+  m_Name: PlayerMovementAnimationsReferences
+  m_EditorClassIdentifier: 
+  <Idle>k__BackingField: {fileID: 11400000, guid: 6e61c5492ac4a8f428959e67dce94fec, type: 2}
+  <Walk>k__BackingField: {fileID: 11400000, guid: d5d01200f349a1d4da81c75406cb68e1, type: 2}
+  <Crouch>k__BackingField: {fileID: 11400000, guid: 05fbbc347a8abe0459348238e3e01ecb, type: 2}
+  <Crouching>k__BackingField: {fileID: 11400000, guid: e96f4d1230faf134db329b1a825c1b17, type: 2}
+  <UnCrouch>k__BackingField: {fileID: 11400000, guid: 0af4c5860cdca1143bd660522545e9fe, type: 2}
+  <Jump>k__BackingField: {fileID: 0}
+  <Fall>k__BackingField: {fileID: 0}
+  <Land>k__BackingField: {fileID: 0}
+  <SlideFaceToWall>k__BackingField: {fileID: 0}
+  <SlideBackToWall>k__BackingField: {fileID: 0}

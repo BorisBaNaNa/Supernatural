@@ -25,6 +25,9 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
             if (!_states.TryGetValue(typeof(TState), out var newState))
                 throw new KeyNotFoundException($"State {typeof(TState)} not registered!");
 
+            if (newState == _currentState)
+                return;
+
             if (_statesQueue.Count > 0)
                 _statesQueue.Clear();
 

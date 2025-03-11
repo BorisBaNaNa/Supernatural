@@ -15,12 +15,14 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
             _curTrackId = currentTrackIndex;
         }
 
-        private void SetAnimation(string animationName, bool loop, bool hardSet = true)
+        public void SetAnimation(Animation animation, bool loop, bool AddToCurrent = false)
         {
-            if (hardSet)
-                Skeleton.AnimationState.SetAnimation(_curTrackId, animationName, loop);
+            TrackEntry currentAnim = Skeleton.AnimationState.GetCurrent(_curTrackId);
+
+            if (AddToCurrent || currentAnim != null && !currentAnim.Loop)
+                Skeleton.AnimationState.AddAnimation(_curTrackId, animation, loop, 0);
             else
-                Skeleton.AnimationState.AddAnimation(_curTrackId, animationName, loop, 0);
+                Skeleton.AnimationState.SetAnimation(_curTrackId, animation, loop);
         }
     }
 }

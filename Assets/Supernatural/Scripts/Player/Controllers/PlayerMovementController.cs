@@ -1,7 +1,8 @@
 ﻿using Assets.Supernatural.Scripts.AnimStateMachine;
 using Assets.Supernatural.Scripts.Interfaces;
-using Assets.Supernatural.Scripts.Player.AnimationStates;
+using Assets.Supernatural.Scripts.Player.AnimationStates.Movement;
 using Assets.Supernatural.Scripts.Player.Controllers.Controller2D;
+using System;
 using UnityEditorInternal;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
                 RaycastHit2D hit = Physics2D.Raycast(SlidePoint.position, dir, 0.6f, LayerMask.GetMask("Ground"));
 
                 bool nearWall = controller.collisions.left || controller.collisions.right;
-                bool isMoveDown = !controller.collisions.below && velocity.y < 0;
+                bool isMoveDown = !controller.collisions.below && _velocity.y < 0;
                 return allowSlideWall && hit && nearWall && isMoveDown;
             }
         }
@@ -44,6 +45,9 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         [SerializeField] private float wallSlideSpeedMax = 3;
         [SerializeField] private float wallStickTime = .25f;
 
+        [Header("Anim Settings")]
+        [SerializeField] private PlayerMovementAnimationsReferences _animationsReferences;
+
         public float MinVelosityForLand = 3;
         public bool allowSlideWall;
 
@@ -57,16 +61,18 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private float _gravity;
         private bool _wasGrounded;
         private bool _isHardLand;
+        private bool _isInit;
+        private bool _isCrouching;
+        private bool _wasCrouched;
 
-        private Vector2 velocity;
-        private Vector2 _moveDir;
+        private Vector2 _velocity;
+        private Vector2 _inputDir;
 
         private AnimationStateMachine _stateMachine;
         private PlayerController2D controller;
         private IPlayerInputController _playerInputs;
         private float accelerationTimeAirborne = .2f;
         private float accelerationTimeGrounded = .1f;
-        private bool _isInit;
 
         private const int MAIN_ANIM_TRACK_INDEX = 1;
 
@@ -82,14 +88,16 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         public void Update()
         {
             HandleInput();
-            ConfigureMove();
+            ConfigureInput();
 
             CalculateVelocity();
             CheckLand();
 
-            //_stateMachine.CurrentAction?.Invoke();
+            _stateMachine.Update();
             Move();
-            //_stateMachine.StateControl();
+
+            StatesControl();
+            SaveUpdateData();
         }
 
         public void OnDisable()
@@ -121,81 +129,115 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         public void SetDamageImpulse(Transform instigator)
         {
             var facingDirectionX = Mathf.Sign(transform.position.x - instigator.position.x);
-            var facingDirectionY = Mathf.Sign(velocity.y);
+            var facingDirectionY = Mathf.Sign(_velocity.y);
 
             SetForce(new Vector2(
-                Mathf.Clamp(Mathf.Abs(velocity.x), 10, 15) * facingDirectionX,
-                Mathf.Clamp(Mathf.Abs(velocity.y), 5, 15) * -facingDirectionY)
+                Mathf.Clamp(Mathf.Abs(_velocity.x), 10, 15) * facingDirectionX,
+                Mathf.Clamp(Mathf.Abs(_velocity.y), 5, 15) * -facingDirectionY)
             );
         }
 
         public void SetForce(Vector2 force)
         {
-            velocity = (Vector3)force;
+            _velocity = (Vector3)force;
         }
 
         public void AddForce(Vector2 force)
         {
-            velocity += force;
-        }
-
-        public void Jump()
-        {
-            controller.IsJumpKeyPressed = true;
-            //if (_moveDir.y >= 0)
-            //    _stateMachine.StateSwitch<JumpState>();
-        }
-
-        public void JumpOff()
-        {
-            controller.IsJumpKeyPressed = false;
-            //AllServices.Instance.GetService<JumpState>().JumpOff();
-        }
-
-        public void Flip() =>
-            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-
-        private void CalculateVelocity()
-        {
-            velocity.x = ApplySmoothing();
-            velocity.y += _gravity * Time.deltaTime;
-        }
-
-        private void HandleInput() => _moveDir = _playerInputs.ReadMovementInput();
-
-        private void ConfigureMove()
-        {
-            if (_moveDir.x != 0 && Mathf.Sign(transform.localScale.x) != _moveDir.x)
-                Flip();
-
-            if (_moveDir.magnitude > 1f)
-                _moveDir.Normalize();
-        }
-
-        private float ApplySmoothing()
-        {
-            float targetVelocityX = _moveDir.x * moveSpeed;
-            float smoothTime = (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne;
-            return Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
-        }
-
-        private void CheckLand()
-        {
-            _isHardLand = Mathf.Abs(velocity.y) > MinVelosityForLand;
-            _wasGrounded = IsGrounded;
-        }
-
-        private void Move()
-        {
-            controller.Move(velocity * Time.deltaTime, _moveDir);
-            if (controller.collisions.above || IsGrounded)
-                velocity.y = 0;
+            _velocity += force;
         }
 
         private void InitializeStateMachine(Spine.Unity.SkeletonAnimation _skeletonAnimation)
         {
             _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
-            _stateMachine.AddState<IdleState>(new IdleState());
+            _stateMachine.AddState<IdleState>(new IdleState(_animationsReferences));
+            _stateMachine.AddState<WalkState>(new WalkState(_animationsReferences));
+            _stateMachine.AddState<CrouchState>(new CrouchState(_animationsReferences));
+        }
+
+        private void Jump()
+        {
+            controller.IsJumpKeyPressed = true;
+            //if (_inputDir.y >= 0)
+            //    _animStateMachine.StateSwitch<JumpState>();
+        }
+
+        private void JumpOff()
+        {
+            controller.IsJumpKeyPressed = false;
+            //AllServices.Instance.GetService<JumpState>().JumpOff();
+        }
+
+        private void HandleInput()
+        {
+            _inputDir = _playerInputs.ReadMovementInput();
+            _isCrouching = _inputDir.y < 0 && _velocity.y == 0;
+        }
+
+        private void ConfigureInput()
+        {
+            if (_inputDir.x != 0 && Mathf.Sign(transform.localScale.x) != _inputDir.x)
+                Flip();
+
+            if (_inputDir.magnitude > 1f)
+                _inputDir.Normalize();
+        }
+
+        private void Flip() =>
+            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+
+        private void CalculateVelocity()
+        {
+            _velocity.x = ApplySmoothing();
+            _velocity.y += _gravity * Time.deltaTime;
+        }
+
+        private float ApplySmoothing()
+        {
+            float targetVelocityX = _isCrouching ? 0 : _inputDir.x * moveSpeed;
+            float smoothTime = (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne;
+            return Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
+        }
+
+        private void CheckLand()
+        {
+            _isHardLand = Mathf.Abs(_velocity.y) > MinVelosityForLand;
+        }
+
+        private void Move()
+        {
+            if (_isCrouching != _wasCrouched)
+                controller.Crouch(_isCrouching && !_wasCrouched);
+
+            controller.Move(_velocity * Time.deltaTime, _inputDir);
+
+            if (controller.collisions.above || IsGrounded)
+                _velocity.y = 0;
+        }
+
+        private void StatesControl()
+        {
+            if (_velocity.y == 0)
+            {
+                if (Mathf.Abs(_velocity.x) >= 1f)
+                {
+                    if (IsGrounded && _inputDir.x != 0)
+                        _stateMachine.StateSwitch<WalkState>();
+                }
+                else
+                {
+                    if (_inputDir == Vector2.zero)
+                        _stateMachine.StateSwitch<IdleState>();
+                    else if (_inputDir.y < 0)
+                        _stateMachine.StateSwitch<CrouchState>();
+                }
+            }
+        }
+
+        private void SaveUpdateData()
+        {
+            _wasGrounded = IsGrounded;
+            _wasCrouched = _isCrouching;
         }
     }
 }

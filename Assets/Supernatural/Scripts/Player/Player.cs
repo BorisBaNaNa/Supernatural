@@ -20,8 +20,8 @@ namespace Assets.Supernatural.Scripts.Player
 
         private AudioSource _soundFxSource;
         private SoundGroupsController _soundController;
+        private AnimationStateMachine _animStateMachine;
         private IPlayerInputController _inputController;
-        private AnimationStateMachine _stateMachine;
 
         private const int MAIN_ANIM_TRACK_INDEX = 0;
 
@@ -62,7 +62,7 @@ namespace Assets.Supernatural.Scripts.Player
 
         private void InitializeStateMachine()
         {
-            _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
+            _animStateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
         }
 
         private void InitializeSoundSystem()
@@ -74,7 +74,7 @@ namespace Assets.Supernatural.Scripts.Player
 
         public void TakeDamage(float damage, Vector2 force, GameObject instigator)//Нах тут forceDir??????
         {
-            //_stateMachine.StateSwitch<TakeDamageState>();
+            //_animStateMachine.StateSwitch<TakeDamageState>();
             _healthController.TakeDamage(damage);
             _movementController.SetDamageImpulse(instigator.transform);
         }
@@ -88,17 +88,17 @@ namespace Assets.Supernatural.Scripts.Player
         {
             transform.position = pos;
 
-            //_stateMachine.StateSwitch<RespawnState>();
+            //_animStateMachine.StateSwitch<RespawnState>();
         }
 
         public void Kill()
         {
-            //_stateMachine.StateSwitch<DeathState>();
+            //_animStateMachine.StateSwitch<DeathState>();
         }
 
         public void GameFinish()
         {
-            //_stateMachine.StateSwitch<FinishState>();
+            //_animStateMachine.StateSwitch<FinishState>();
         }
     }
 }
