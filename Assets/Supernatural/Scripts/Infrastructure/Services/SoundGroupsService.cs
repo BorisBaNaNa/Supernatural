@@ -1,5 +1,5 @@
-using Assets.Supernatural.Scripts.Interfaces;
-using SoundSystem.Scripts.Infrastructure.Manages;
+using Assets.Supernatural.Scripts.Interfaces.Infrastructure;
+using SoundSystem.Scripts.Infrastructure.Managers;
 using SoundSystem.Scripts.ScriptableObjects;
 using UnityEngine;
 

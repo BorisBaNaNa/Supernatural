@@ -3,7 +3,7 @@ using Assets.Supernatural.Scripts.Infrastructure;
 using Assets.Supernatural.Scripts.Interfaces;
 using Assets.Supernatural.Scripts.Player.AnimationStates;
 using Assets.Supernatural.Scripts.Player.Controllers;
-using SoundSystem.Scripts.Infrastructure.Manages;
+using SoundSystem.Scripts.Infrastructure.Managers;
 using Spine.Unity;
 using System;
 using UnityEngine;
