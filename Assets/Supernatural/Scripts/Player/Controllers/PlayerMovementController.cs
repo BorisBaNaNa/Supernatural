@@ -8,21 +8,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PlayerMovementController : MonoBehaviour
     {
-        public bool IsSliding
-        {
-            get
-            {
-                Vector2 dir = new(controller.collisions.left ? -1 : 1, 0);
-                RaycastHit2D hit = Physics2D.Raycast(SlidePoint.position, dir, 0.6f, LayerMask.GetMask("Ground"));
-
-                bool nearWall = controller.collisions.left || controller.collisions.right;
-                bool isMoveDown = !controller.collisions.below && _velocity.y < 0;
-                return allowSlideWall && hit && nearWall && isMoveDown;
-            }
-        }
+        public bool IsClimbingOnWall => controller.collisions.hasWallAbove || controller.collisions.hasWallBelow;
 
         [Header("Moving")]
-        [SerializeField] private float moveSpeed = 3;
+        [SerializeField] private float _flySpeed = 6f;
+        [SerializeField] private float _moveSpeed = 4f;
+        [SerializeField] private float _climbSpeed = 2.5f;
 
         [Header("OnJumpPerformed")]
         [SerializeField] private float _jumpDelay = 0.1f;
@@ -35,8 +26,6 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         [Header("Wall SlideFaceToWall")]
         [SerializeField] private Transform SlidePoint;
         [SerializeField] private Vector2 wallJumpClimb;
-        [SerializeField] private Vector2 wallJumpOff;
-        [SerializeField] private Vector2 wallLeap;
         [SerializeField] private float wallSlideSpeedMax = 3;
         [SerializeField] private float wallStickTime = .25f;
 
@@ -44,30 +33,29 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         [SerializeField] private PlayerMovementAnimationsReferences _animationsReferences;
 
         public float MinVelosityForLand = 3;
-        public bool allowSlideWall;
+        public bool AllowClimbWall;
 
 
         public int WallDirX => controller.collisions.left ? -1 : controller.collisions.right ? 1 : 0;
         public bool WasGrounded => _wasGrounded;
         public bool IsGrounded => controller.collisions.below;
-        public bool IsHardLand => _isHardLand;
 
         private float velocityXSmoothing;
+        private float velocityYSmoothing;
         private float _gravity;
         private float _maxJumpVelocity;
         private float _minJumpVelocity;
         private int _jumpCount;
         private bool _wasGrounded;
-        private bool _isHardLand;
         private bool _isInit;
-        private bool _isCrouching;
-        private bool _wasCrouched;
 
+        private Vector2 _currentJumpVelocity = Vector2.zero;
         private Vector2 _velocity;
         private Vector2 _inputDir;
 
         private AnimationStateMachine _stateMachine;
         private PlayerController2D controller;
+        private CachedMovementData _cachedMovementData = new();
         private IPlayerInputController _playerInputs;
         private float accelerationTimeAirborne = .2f;
         private float accelerationTimeGrounded = .1f;
@@ -86,14 +74,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         {
             HandleInput();
             ConfigureInput();
-
             CalculateVelocity();
-            CheckLand();
+            Move();
+            CheckCollisions();
+            SaveCachedData();
 
             _stateMachine.Update();
-            Move();
-
-            StatesControl();
             SaveUpdateData();
         }
 
@@ -121,6 +107,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(_gravity) * _minJumpHeight);
 
             InitializeStateMachine(_skeletonAnimation);
+            _stateMachine.StateSwitch<IdleState>();
             _isInit = true;
         }
 
@@ -148,93 +135,99 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private void InitializeStateMachine(Spine.Unity.SkeletonAnimation _skeletonAnimation)
         {
             _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
-            _stateMachine.AddState<IdleState>(new IdleState(_animationsReferences));
-            _stateMachine.AddState<WalkState>(new WalkState(_animationsReferences));
-            _stateMachine.AddState<CrouchState>(new CrouchState(_animationsReferences));
-            _stateMachine.AddState<JumpState>(new JumpState(_animationsReferences));
+            _stateMachine.AddState<IdleState>(new IdleState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState<WalkState>(new WalkState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState<JumpState>(new JumpState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState<ClimbState>(new ClimbState(_animationsReferences, _cachedMovementData));
         }
 
         private void HandleInput()
         {
             _inputDir = _playerInputs.ReadMovementInput();
-            _isCrouching = _inputDir.y < 0 && _velocity.y == 0;
         }
 
         private void ConfigureInput()
         {
             if (_inputDir.x != 0 && Mathf.Sign(transform.localScale.x) != _inputDir.x)
                 Flip();
+        }
 
-            if (_inputDir.magnitude > 1f)
-                _inputDir.Normalize();
+        private void CalculateVelocity()
+        {
+            if (_currentJumpVelocity != Vector2.zero)
+            {
+                _velocity.x = _currentJumpVelocity.x;
+                _velocity.y = _currentJumpVelocity.y;
+                _currentJumpVelocity = Vector2.zero;
+                return;
+            }
+
+            _velocity.x = ApplySmoothingX(_inputDir.x * (IsGrounded ? _moveSpeed : _flySpeed));
+
+            if (IsClimbingOnWall)
+            {
+                if (!controller.collisions.hasWallAbove && _inputDir.y > 0
+                    || !controller.collisions.hasWallBelow && _inputDir.y < 0)
+                    _velocity.y = ApplySmoothingY(0);
+                else
+                    _velocity.y = ApplySmoothingY(_inputDir.y * _climbSpeed);
+            }
+            else
+                _velocity.y += ApplyGravity();
+        }
+
+        private void Move() => controller.Move(_velocity * Time.deltaTime, _inputDir);
+
+        private void CheckCollisions()
+        {
+            if (controller.collisions.above || IsGrounded)
+            {
+                _velocity.y = 0;
+
+                if (IsGrounded)
+                    _jumpCount = 0;
+            }
         }
 
         private void Flip() =>
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
 
-        private void CalculateVelocity()
+        private float ApplySmoothingX(float targetVelocityX)
         {
-            _velocity.x = ApplySmoothing();
-            _velocity.y += _gravity * Time.deltaTime;
-        }
-
-        private float ApplySmoothing()
-        {
-            float targetVelocityX = _isCrouching ? 0 : _inputDir.x * moveSpeed;
-            float smoothTime = (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne;
+            float smoothTime = IsGrounded ? accelerationTimeGrounded : accelerationTimeAirborne;
             return Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
         }
 
-        private void CheckLand()
+        private float ApplySmoothingY(float targetVelocityY)
         {
-            _isHardLand = Mathf.Abs(_velocity.y) > MinVelosityForLand;
+            float smoothTime = accelerationTimeGrounded;
+            return Mathf.SmoothDamp(_velocity.y, targetVelocityY, ref velocityYSmoothing, smoothTime);
         }
 
-        private void Move()
+        private float ApplyGravity()
         {
-            if (_isCrouching != _wasCrouched)
-                controller.Crouch(_isCrouching && !_wasCrouched);
-
-            controller.Move(_velocity * Time.deltaTime, _inputDir);
-
-            if (controller.collisions.above || IsGrounded)
-            {
-                _velocity.y = 0;
-                _jumpCount = 0;
-            }
-        }
-
-        private void StatesControl()
-        {
-            if (_velocity.y == 0)
-            {
-                if (Mathf.Abs(_velocity.x) >= 1f)
-                {
-                    if (IsGrounded && _inputDir.x != 0)
-                        _stateMachine.StateSwitch<WalkState>();
-                }
-                else
-                {
-                    if (_inputDir == Vector2.zero)
-                        _stateMachine.StateSwitch<IdleState>();
-                    else if (_inputDir.y < 0)
-                        _stateMachine.StateSwitch<CrouchState>();
-                }
-            }
+            return _gravity * Time.deltaTime;
         }
 
         private void SaveUpdateData()
         {
             _wasGrounded = IsGrounded;
-            _wasCrouched = _isCrouching;
+        }
+
+        private void SaveCachedData()
+        {
+            _cachedMovementData.Velocity = _velocity;
+            _cachedMovementData.InputDir = _inputDir;
+            _cachedMovementData.IsGrounded = IsGrounded;
+            _cachedMovementData.IsClimbingOnWall = IsClimbingOnWall;
         }
 
         public void Jump()
         {
             controller.IsJumpKeyPressed = true;
 
-            if (IsSliding)
-                JumpSliding();
+            if (IsClimbingOnWall)
+                JumpClimbing();
             else if (IsGrounded || _jumpCount < _maxJumpCount)
             {
                 float jumpVelocity = _jumpCount == 0 && IsGrounded ? _maxJumpVelocity : _minJumpVelocity;
@@ -258,35 +251,37 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
                 _jumpCount = _maxJumpCount;
 
             _stateMachine.StateSwitch<JumpState>();
-            _velocity.y = jumpVelocity;
+            _currentJumpVelocity.y = jumpVelocity;
 
             if (_jumpEffect != null)
                 Object.Instantiate(_jumpEffect, transform.position, transform.rotation);
             //SoundManager.PlaySfx(_player.jumpSound);
         }
 
-        private void JumpSliding()
+        private void JumpClimbing()
         {
-            if (_inputDir.x == WallDirX)
+            float climbJumpVelocity = _maxJumpVelocity;
+
+            if (_inputDir.y < 0)
             {
-                _velocity.x = -WallDirX * wallJumpClimb.x;
-                _velocity.y = wallJumpClimb.y;
-            }
-            else if (_inputDir.x == 0)
-            {
-                _velocity.x = -WallDirX * wallJumpOff.x;
-                _velocity.y = wallJumpOff.y;
-                Flip();
-            }
-            else
-            {
-                _velocity.x = -WallDirX * wallLeap.x;
-                _velocity.y = wallLeap.y;
+                _currentJumpVelocity.y = -_minJumpVelocity;
+                return;
             }
 
-            _jumpCount = _maxJumpCount;
+            if (_inputDir.x != WallDirX)
+                _currentJumpVelocity.x = -WallDirX * climbJumpVelocity;
+
+            Flip();
+            Jump(climbJumpVelocity);
             //SoundManager.PlaySfx(jumpSound);
         }
 
+        public class CachedMovementData
+        {
+            public Vector3 Velocity { get; set; }
+            public Vector2 InputDir { get; set; }
+            public bool IsGrounded { get; set; }
+            public bool IsClimbingOnWall { get; set; }
+        }
     }
 }

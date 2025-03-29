@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a3f740c40f794840a9cc14dd5e85f08, type: 3}
   m_Name: PlayerMovementAnimationsReferences
   m_EditorClassIdentifier: 
-  <Idle>k__BackingField: {fileID: 11400000, guid: 6e61c5492ac4a8f428959e67dce94fec, type: 2}
-  <Walk>k__BackingField: {fileID: 11400000, guid: d5d01200f349a1d4da81c75406cb68e1, type: 2}
-  <Crouch>k__BackingField: {fileID: 11400000, guid: 05fbbc347a8abe0459348238e3e01ecb, type: 2}
-  <Crouching>k__BackingField: {fileID: 11400000, guid: e96f4d1230faf134db329b1a825c1b17, type: 2}
-  <UnCrouch>k__BackingField: {fileID: 11400000, guid: 0af4c5860cdca1143bd660522545e9fe, type: 2}
-  <Jump>k__BackingField: {fileID: 11400000, guid: 857b200e490678045aa2b020b1caca5a, type: 2}
-  <Fall>k__BackingField: {fileID: 11400000, guid: d9ee9492a0c7c7444b3e63f54bac084c, type: 2}
-  <Land>k__BackingField: {fileID: 11400000, guid: 7b2523b66a0da714aac0ff711357d297, type: 2}
-  <SlideFaceToWall>k__BackingField: {fileID: 0}
-  <SlideBackToWall>k__BackingField: {fileID: 0}
+  <Idle>k__BackingField: {fileID: 11400000, guid: 166b2c220942b5d46980a97f3f6539db, type: 2}
+  <Walk>k__BackingField: {fileID: 11400000, guid: ab377fb11f6cac542ad9e8217da70714, type: 2}
+  <Jump>k__BackingField: {fileID: 11400000, guid: b2e18b5afe7d42c45af6dead9347c92f, type: 2}
+  <Climb>k__BackingField: {fileID: 11400000, guid: 017bb1825a090bd4696e436509efc9f6, type: 2}
+  <ClimbIdle>k__BackingField: {fileID: 11400000, guid: 9e26c02d0d904fe478907dc71e09718c, type: 2}

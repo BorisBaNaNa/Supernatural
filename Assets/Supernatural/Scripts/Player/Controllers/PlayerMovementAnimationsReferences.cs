@@ -8,13 +8,8 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
     {
         [field: SerializeField] public AnimationReferenceAsset Idle { get; private set; }
         [field: SerializeField] public AnimationReferenceAsset Walk { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset Crouch { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset Crouching { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset UnCrouch { get; private set; }
         [field: SerializeField] public AnimationReferenceAsset Jump { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset Fall { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset Land { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset SlideFaceToWall { get; private set; }
-        [field: SerializeField] public AnimationReferenceAsset SlideBackToWall { get; private set; }
+        [field: SerializeField] public AnimationReferenceAsset Climb { get; private set; }
+        [field: SerializeField] public AnimationReferenceAsset ClimbIdle { get; private set; }
     }
 }

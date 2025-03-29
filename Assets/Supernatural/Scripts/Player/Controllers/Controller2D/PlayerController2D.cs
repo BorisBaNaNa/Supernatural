@@ -20,14 +20,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
         public Vector2 boxcolliderCrouchOffset;
         public Vector2 crouchScale = new Vector3(1f, 0.95f);
 
-        private InputActions _inputs;
         private float _boxcolliderSizeYOriginal;
         private Vector2 _boxcolliderOffsetOriginal;
 
         public override void Awake()
         {
             base.Awake();
-            _inputs = new InputActions();
 
             _boxcolliderSizeYOriginal = boxcollider.size.y;
             _boxcolliderOffsetOriginal = boxcollider.offset;
@@ -37,16 +35,6 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
         {
             base.Start();
             collisions.faceDir = 1;
-        }
-
-        private void OnEnable()
-        {
-            _inputs.Player.Enable();
-        }
-
-        private void OnDisable()
-        {
-            _inputs.Player.Disable();
         }
 
         public void Move(Vector3 velocity, bool standingOnPlatform)
@@ -82,6 +70,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
             }
 
             CheckGroundedAhead(velocity);
+            CheckWallAhead(velocity);
 
             transform.Translate(velocity, Space.World);
 
@@ -99,7 +88,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
             if (needCrouch)
             {
                 size.y = CrouchSizeY;
-                transform.localScale = new (crouchScale.x * forwardDir, crouchScale.y);
+                transform.localScale = new(crouchScale.x * forwardDir, crouchScale.y);
                 boxcollider.offset = boxcolliderCrouchOffset;
             }
             else
@@ -251,6 +240,30 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
 
         }
 
+        void CheckWallAhead(Vector3 velocity)
+        {
+            float directionX = collisions.faceDir;
+            Vector2 rayDir = Vector2.right * directionX;
+            float rayLength = Mathf.Abs(velocity.x) + skinWidth;
+
+            if (Mathf.Abs(velocity.x) < skinWidth)
+                rayLength = 5 * skinWidth;
+
+            Vector3 topRayOrigin = (directionX == 1) ? raycastOrigins.topRight : raycastOrigins.topLeft;
+            Vector3 bottomRayOrigin = (directionX == 1) ? raycastOrigins.bottomRight : raycastOrigins.bottomLeft;
+            Vector3 middleRayOrigin = topRayOrigin + (bottomRayOrigin - topRayOrigin) / 2f;
+
+            RaycastHit2D topHit = Physics2D.Raycast(topRayOrigin, rayDir, rayLength, collisionMask);
+            RaycastHit2D bottomHit = Physics2D.Raycast(bottomRayOrigin, rayDir, rayLength, collisionMask);
+            RaycastHit2D middleHit = Physics2D.Raycast(middleRayOrigin, rayDir, rayLength, collisionMask);
+
+            Debug.DrawRay(topRayOrigin, rayDir * rayLength, Color.cyan);
+            Debug.DrawRay(bottomRayOrigin, rayDir * rayLength, Color.cyan);
+
+            collisions.hasWallAbove = topHit && middleHit;
+            collisions.hasWallBelow = bottomHit && middleHit;
+        }
+
         void ClimbSlope(ref Vector3 velocity, float slopeAngle)
         {
             float moveDistance = Mathf.Abs(velocity.x);
@@ -311,6 +324,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
             public bool left, right;
 
             public bool isGrounedAhead;
+            public bool hasWallAbove, hasWallBelow;
 
             public bool climbingSlope;
             public bool descendingSlope;
