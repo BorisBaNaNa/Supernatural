@@ -1,0 +1,18 @@
+{
+    "name": "BorisSoundSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a9dfe2b7c7aeb7044a525c9ac2f48b08"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

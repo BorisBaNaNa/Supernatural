@@ -93,17 +93,19 @@ namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
 
         public void Crouch(bool needCrouch)
         {
+            float forwardDir = Mathf.Sign(transform.localScale.x);
+
             Vector2 size = boxcollider.size;
             if (needCrouch)
             {
                 size.y = CrouchSizeY;
-                transform.localScale = crouchScale;
+                transform.localScale = new (crouchScale.x * forwardDir, crouchScale.y);
                 boxcollider.offset = boxcolliderCrouchOffset;
             }
             else
             {
                 size.y = _boxcolliderSizeYOriginal;
-                transform.localScale = new Vector3(1f, 1f);
+                transform.localScale = new Vector3(forwardDir, 1f);
                 boxcollider.offset = _boxcolliderOffsetOriginal;
             }
             boxcollider.size = size;

@@ -60,6 +60,7 @@ MonoBehaviour:
   _healthController: {fileID: 5882905936941134422}
   _movementController: {fileID: 5388150403883303561}
   _attackController: {fileID: 5818214537921462280}
+  _skeletonAnimation: {fileID: 8954280914143010931}
 --- !u!114 &5882905936941134422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +100,7 @@ MonoBehaviour:
   wallLeap: {x: 0, y: 0}
   wallSlideSpeedMax: 3
   wallStickTime: 0.25
+  _animationsReferences: {fileID: 11400000, guid: c341ea0a9dbbff948abc2d68510d8f5e, type: 2}
   MinVelosityForLand: 3
   allowSlideWall: 0
 --- !u!114 &4590314173724648015
@@ -5177,7 +5179,6 @@ GameObject:
   - component: {fileID: 8954280914143010929}
   - component: {fileID: 8954280914143010928}
   - component: {fileID: 8954280914143010931}
-  - component: {fileID: 6835567782682972989}
   m_Layer: 0
   m_Name: Spine GameObject (Red_Hood)
   m_TagString: Untagged
@@ -5293,36 +5294,3 @@ MonoBehaviour:
   _animationName: idle
   loop: 1
   timeScale: 1
---- !u!114 &6835567782682972989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954280914143010933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aa6d5b255709bd4abbb5b0230beb53e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  SkeletonAnim: {fileID: 8954280914143010931}
-  WalkEventName: step
-  ActiveAnimTrack: 1
-  StableAnimTrack: 0
-  Idle: {fileID: 11400000, guid: 6e61c5492ac4a8f428959e67dce94fec, type: 2}
-  Walk: {fileID: 11400000, guid: d5d01200f349a1d4da81c75406cb68e1, type: 2}
-  Crouch: {fileID: 11400000, guid: 05fbbc347a8abe0459348238e3e01ecb, type: 2}
-  Crouching: {fileID: 11400000, guid: e96f4d1230faf134db329b1a825c1b17, type: 2}
-  UnCrouch: {fileID: 11400000, guid: 0af4c5860cdca1143bd660522545e9fe, type: 2}
-  Jump: {fileID: 11400000, guid: 3b87665936645fa438050fa0c0992ba1, type: 2}
-  Fall: {fileID: 11400000, guid: d9ee9492a0c7c7444b3e63f54bac084c, type: 2}
-  Land: {fileID: 11400000, guid: b5e2e83ccf687fb47b9a3079eed77bd1, type: 2}
-  SlideFaceToWall: {fileID: 11400000, guid: 6925bd5b1e3ae8e46b5fe7bde736ab22, type: 2}
-  SlideBackToWall: {fileID: 11400000, guid: c6230a9ea856ad341a7e92547d0ea299, type: 2}
-  MeleeAttackAnim: {fileID: 11400000, guid: cc5a197a34f06d9488619755fd73649e, type: 2}
-  RangeAttackAnim: {fileID: 11400000, guid: 4079fd84a6a780a44ba23c346a288884, type: 2}
-  TackeDamageAnim: {fileID: 11400000, guid: 51bfe4ea9e5a7db4c839d36391ace082, type: 2}
-  Death: {fileID: 11400000, guid: ce02cc1a0cf1f244185f918ab7558250, type: 2}
-  Win: {fileID: 11400000, guid: e9aec32b8b98e094c991192a43b2f356, type: 2}
-  Respawn: {fileID: 11400000, guid: 62633f55eb6d4f94c989d77c30da6992, type: 2}

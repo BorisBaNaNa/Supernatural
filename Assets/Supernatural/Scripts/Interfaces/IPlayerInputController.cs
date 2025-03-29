@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.Supernatural.Scripts.Interfaces.Infrastructure;
+using System;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Interfaces
