@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8aa0ce4ff9457de4f819a4f517299986
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269741
+  packageName: Saints Field
+  packageVersion: 4.0.2
+  assetPath: Assets/SaintsField/Samples/Scripts/IssueAndTesting/Issue/Issue155/Editor/SceneReferencePropertyDrawer.cs
+  uploadId: 744214
