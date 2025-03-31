@@ -1,6 +1,5 @@
 using Assets.Supernatural.Scripts.AnimStateMachine;
 using Assets.Supernatural.Scripts.AnimStateMachine.BaseStates;
-using Assets.Supernatural.Scripts.Player.Configs;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement

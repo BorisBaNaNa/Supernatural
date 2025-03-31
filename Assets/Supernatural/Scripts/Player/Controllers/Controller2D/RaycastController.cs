@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 namespace Assets.Supernatural.Scripts.Player.Controllers.Controller2D
 {

@@ -1,7 +1,4 @@
-﻿using Assets.Supernatural.Scripts.AnimStateMachine.BaseStates;
-using System;
-
-namespace Assets.Supernatural.Scripts.AnimStateMachine.Interfces
+﻿namespace Assets.Supernatural.Scripts.AnimStateMachine.Interfces
 {
     public interface IAnimationStateSwitcher
     {

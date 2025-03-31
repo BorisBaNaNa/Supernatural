@@ -1,11 +1,7 @@
-using Assets.Supernatural.Scripts.AnimStateMachine;
-using Assets.Supernatural.Scripts.AnimStateMachine.BaseStates;
 using Assets.Supernatural.Scripts.Player.AnimationStates.Movement;
 using Assets.Supernatural.Scripts.Player.Configs;
 using Spine;
-using System;
 using UnityEngine;
-using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Once
 {

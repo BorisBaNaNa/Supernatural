@@ -9,8 +9,8 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PlayerMovementController : MonoBehaviour
     {
-        public bool IsClimbingOnWall => _isEnabled 
-            && (controller.collisions.hasWallAbove || controller.collisions.hasWallBelow) 
+        public bool IsClimbingOnWall => _isEnabled
+            && (controller.collisions.hasWallAbove || controller.collisions.hasWallBelow)
             && WallDirX == Mathf.Sign(transform.localScale.x);
 
         [Header("Moving")]
@@ -150,9 +150,9 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _velocity += force;
         }
 
-        private void InitializeStateMachine(Spine.Unity.SkeletonAnimation _skeletonAnimation)
+        private void InitializeStateMachine(Spine.Unity.SkeletonAnimation skeletonAnimation)
         {
-            _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
+            _stateMachine = new SpineStateMachine(skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
             _stateMachine.AddState(new IdleState(_animationsReferences, _cachedMovementData));
             _stateMachine.AddState(new WalkState(_animationsReferences, _cachedMovementData));
             _stateMachine.AddState(new JumpState(_animationsReferences, _cachedMovementData));

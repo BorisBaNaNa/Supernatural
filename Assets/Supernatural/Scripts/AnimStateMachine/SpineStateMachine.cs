@@ -1,7 +1,5 @@
 ﻿using Spine;
 using Spine.Unity;
-using System;
-using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.AnimStateMachine
 {
@@ -21,6 +19,7 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
         {
             base.DropCurrentState();
             Skeleton.AnimationState.SetEmptyAnimation(_curTrackId, 0f);
+            //Skeleton.AnimationState.ClearTrack(_curTrackId);
         }
 
         public void SetAnimation(Spine.Animation animation, bool loop, bool hardSet = false)

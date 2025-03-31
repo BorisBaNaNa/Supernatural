@@ -1,5 +1,5 @@
-using UnityEngine;
 using Assets.Supernatural.Scripts.Interfaces.Infrastructure;
+using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Infrastructure
 {

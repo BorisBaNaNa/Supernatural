@@ -1,5 +1,4 @@
 ﻿using Assets.Supernatural.Scripts.Player.Configs;
-using Assets.Supernatural.Scripts.Player.Controllers;
 using UnityEngine;
 using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 

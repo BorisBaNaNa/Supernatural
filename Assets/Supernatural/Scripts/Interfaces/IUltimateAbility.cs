@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using Assets.Supernatural.Scripts.Player;
+﻿using Assets.Supernatural.Scripts.Player;
+using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Interfaces
 {

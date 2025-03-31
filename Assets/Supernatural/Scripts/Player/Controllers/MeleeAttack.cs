@@ -1,68 +1,61 @@
 ﻿using Assets.Supernatural.Scripts.Interfaces;
-using System.Collections;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class MeleeAttack : MonoBehaviour
     {
+        public bool AttackIsReady => Time.time >= _nextAttack;
+
         [Tooltip("Какие слои можно бить")]
-        public LayerMask CollisionMask;
+        [SerializeField] private LayerMask _collisionMask;
         [Tooltip("Можно ли быть сразу несколько врагов")]
-        public bool multiDamage = false;
+        [SerializeField] private bool _multiDamage = false;
         [Tooltip("Урон врагу или объекту")]
-        public float damageToGive;
+        [SerializeField] private float _damageToGive;
         [Tooltip("Применить силу к врагу, при попадании, только для объектов с Rigid body")]
-        public Vector2 pushObject;
-        public Transform MeleePoint;
-        public float areaSize;
+        [SerializeField] private Vector2 _pushObject;
+        [SerializeField] private Transform _meleePoint;
+        [SerializeField] private float _areaSize;
 
-        public float attackRate = 0.2f;
-        [Tooltip("Проверьте цель в пределах досягаемости после некоторой задержки, полезно для синхронизации правильного времени атаки анимации")]
-        public float attackAfterTime = 0.15f;
+        private float _attackRate = 0.2f;
+        private float _nextAttack = 0;
 
-        float nextAttack = 0;
-
-        public bool Attack()
+        public void Attack()
         {
-            if (Time.time > nextAttack)
-            {
-                nextAttack = Time.time + attackRate;
-                StartCoroutine(CheckTargetCo(attackAfterTime));
-                return true;
-            }
-            else
-                return false;
+            if (!AttackIsReady)
+                return;
+
+            Debug.Log("fire");
+            _nextAttack = Time.time + _attackRate;
+            CheckTargetCo();
         }
 
-        IEnumerator CheckTargetCo(float delay)
+        private void CheckTargetCo()
         {
-            yield return new WaitForSeconds(delay);
-
-            RaycastHit2D[] hits = Physics2D.CircleCastAll(MeleePoint.position, areaSize, Vector2.zero, 0, CollisionMask);
+            RaycastHit2D[] hits = Physics2D.CircleCastAll(_meleePoint.position, _areaSize, Vector2.zero, 0, _collisionMask);
 
             if (hits == null)
-                yield break;
+                return;
 
             foreach (RaycastHit2D hit in hits)
             {
-                ICanTakeDamage damage = hit.collider.gameObject.GetComponent<ICanTakeDamage>();
-                if (damage == null)
+                if (!hit.collider.gameObject.TryGetComponent<ICanTakeDamage>(out var damage))
                     continue;
 
-                damage.TakeDamage(damageToGive, pushObject, gameObject);
-                if (!multiDamage)
+                damage.TakeDamage(_damageToGive, _pushObject, gameObject);
+                if (!_multiDamage)
                     break;
             }
         }
 
         void OnDrawGizmos()
         {
-            if (MeleePoint == null)
+            if (_meleePoint == null)
                 return;
 
             Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(MeleePoint.position, areaSize);
+            Gizmos.DrawWireSphere(_meleePoint.position, _areaSize);
         }
     }
 }

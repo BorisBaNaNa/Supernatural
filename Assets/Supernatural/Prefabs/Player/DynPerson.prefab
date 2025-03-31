@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rangeAttack: {fileID: 1398368392712856528}
   _meleeAttack: {fileID: 1075703450430850688}
+  _animationsReferences: {fileID: 11400000, guid: 8f3294694c64adf40814e0990da1a3ed, type: 2}
 --- !u!114 &1398368392712856528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,10 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0a20c6219ddca48affc92252990a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirePoint: {fileID: 7264003379643517329}
-  fireDelay: 0.1
-  fireRate: 0.5
-  inverseDirection: 0
+  _firePoint: {fileID: 7264003379643517329}
+  _fireRate: 0
 --- !u!114 &1075703450430850688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,16 +181,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce94e65c16db96488783b5ffa9efe40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionMask:
+  _collisionMask:
     serializedVersion: 2
-    m_Bits: 256
-  multiDamage: 0
-  damageToGive: 100
-  pushObject: {x: 2.5, y: 1}
-  MeleePoint: {fileID: 8591787233988655966}
-  areaSize: 0.4
-  attackRate: 0.3
-  attackAfterTime: 0.15
+    m_Bits: 0
+  _multiDamage: 0
+  _damageToGive: 0
+  _pushObject: {x: 0, y: 0}
+  _meleePoint: {fileID: 8591787233988655966}
+  _areaSize: 0.5
 --- !u!50 &8602941991198506086
 Rigidbody2D:
   serializedVersion: 5
@@ -290,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 1513860961105358473}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.545, y: 0.455, z: 0}
+  m_LocalPosition: {x: 0.868, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5303,7 +5300,7 @@ Transform:
   m_GameObject: {fileID: 8794934149768697970}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.557, y: 0.395, z: 0}
+  m_LocalPosition: {x: 0.575, y: -0.071, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

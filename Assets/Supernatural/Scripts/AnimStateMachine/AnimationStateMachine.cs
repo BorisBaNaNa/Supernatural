@@ -1,9 +1,6 @@
-using Assets.Supernatural.Scripts.AnimStateMachine.BaseStates;
 using Assets.Supernatural.Scripts.AnimStateMachine.Interfces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.AnimStateMachine
 {
