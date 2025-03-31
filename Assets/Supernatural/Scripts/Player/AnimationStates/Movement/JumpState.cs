@@ -1,14 +1,15 @@
-﻿using Assets.Supernatural.Scripts.Player.Controllers;
+﻿using Assets.Supernatural.Scripts.Player.Configs;
+using Assets.Supernatural.Scripts.Player.Controllers;
 using UnityEngine;
+using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement
 {
-    public class JumpState : MovementStateBase
+    public class JumpState : SpineAnimationStateBase<PlayerMovementAnimationsReferences>
     {
-        private PlayerMovementController.CachedMovementData _cachedMovement;
+        private readonly CachedMovementData _cachedMovement;
 
-        public JumpState(PlayerMovementAnimationsReferences animationsReferences,
-            PlayerMovementController.CachedMovementData cachedData) : base(animationsReferences)
+        public JumpState(PlayerMovementAnimationsReferences animationsReferences, CachedMovementData cachedData) : base(animationsReferences)
         {
             _cachedMovement = cachedData;
         }

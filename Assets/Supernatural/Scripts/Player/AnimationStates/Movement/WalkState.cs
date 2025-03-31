@@ -1,16 +1,15 @@
-﻿using Assets.Supernatural.Scripts.Player.Controllers;
+﻿using Assets.Supernatural.Scripts.Player.Configs;
 using UnityEditorInternal;
 using UnityEngine;
 using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement
 {
-    public class WalkState : MovementStateBase
+    public class WalkState : SpineAnimationStateBase<PlayerMovementAnimationsReferences>
     {
-        private CachedMovementData _cachedMovement;
+        private readonly CachedMovementData _cachedMovement;
 
-        public WalkState(PlayerMovementAnimationsReferences animationsReferences,
-            CachedMovementData cachedData) : base(animationsReferences)
+        public WalkState(PlayerMovementAnimationsReferences animationsReferences, CachedMovementData cachedData) : base(animationsReferences)
         {
             _cachedMovement = cachedData;
         }

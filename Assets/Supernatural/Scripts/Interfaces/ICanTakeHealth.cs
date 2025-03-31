@@ -2,6 +2,6 @@
 {
     public interface ICanTakeHealth
     {
-        void TakeHealth(int takenHearth);
+        void TakeHealth(float takenHearth);
     }
 }

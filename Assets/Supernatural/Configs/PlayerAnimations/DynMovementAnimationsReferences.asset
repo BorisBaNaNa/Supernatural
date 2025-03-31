@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a3f740c40f794840a9cc14dd5e85f08, type: 3}
-  m_Name: PlayerMovementAnimationsReferences
+  m_Name: DynMovementAnimationsReferences
   m_EditorClassIdentifier: 
   <Idle>k__BackingField: {fileID: 11400000, guid: 166b2c220942b5d46980a97f3f6539db, type: 2}
   <Walk>k__BackingField: {fileID: 11400000, guid: ab377fb11f6cac542ad9e8217da70714, type: 2}

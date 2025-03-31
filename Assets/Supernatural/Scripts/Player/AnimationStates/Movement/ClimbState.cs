@@ -1,18 +1,17 @@
-﻿using Assets.Supernatural.Scripts.Player.Controllers;
+﻿using Assets.Supernatural.Scripts.Player.Configs;
 using UnityEngine;
 using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement
 {
-    public class ClimbState : MovementStateBase
+    public class ClimbState : SpineAnimationStateBase<PlayerMovementAnimationsReferences>
     {
-        private CachedMovementData _cachedMovement;
+        private readonly CachedMovementData _cachedMovement;
         private float _lastVelocityYDirection;
 
         private const float MIN_VELOCITY = 0.05f;
 
-        public ClimbState(PlayerMovementAnimationsReferences animationsReferences,
-            CachedMovementData cachedData) : base(animationsReferences)
+        public ClimbState(PlayerMovementAnimationsReferences animationsReferences, CachedMovementData cachedData) : base(animationsReferences)
         {
             _cachedMovement = cachedData;
         }

@@ -1,4 +1,6 @@
 ﻿using Assets.Supernatural.Scripts.Interfaces;
+using Assets.Supernatural.Scripts.Player.AnimationStates.Movement;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets.Supernatural.Scripts.Player.Controllers
@@ -18,8 +20,8 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         {
             _playerInputs.OnRangeAttackPerformed += RangeAttack;
             _playerInputs.OnMeleeAttackPerformed += MeleeAttack;
-            //_playerInputs.Player.OnRangeAttackPerformed.performed += OnRangeAttackPerformed;
-            //_playerInputs.Player.OnMeleeAttackPerformed.performed += OnMeleeAttackPerformed;
+            //_playerInputs.PlayerController.OnRangeAttackPerformed.performed += OnRangeAttackPerformed;
+            //_playerInputs.PlayerController.OnMeleeAttackPerformed.performed += OnMeleeAttackPerformed;
         }
 
         private void OnEnable()
@@ -27,24 +29,20 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             if (!_isInit)
                 return;
 
-            _playerInputs.EnableAttack();
-            //_playerInputs.Player.OnRangeAttackPerformed.Enable();
-            //_playerInputs.Player.OnMeleeAttackPerformed.Enable();
+            Enable();
         }
 
         private void OnDisable()
         {
-            _playerInputs.DisableAttack();
-            //_playerInputs.Player.OnRangeAttackPerformed.Disable();
-            //_playerInputs.Player.OnMeleeAttackPerformed.Disable();
+            Disable();
         }
 
         private void OnDestroy()
         {
             _playerInputs.OnRangeAttackPerformed -= RangeAttack;
             _playerInputs.OnMeleeAttackPerformed -= MeleeAttack;
-            //_playerInputs.Player.OnRangeAttackPerformed.performed -= OnRangeAttackPerformed;
-            //_playerInputs.Player.OnMeleeAttackPerformed.performed -= OnMeleeAttackPerformed;
+            //_playerInputs.PlayerController.OnRangeAttackPerformed.performed -= OnRangeAttackPerformed;
+            //_playerInputs.PlayerController.OnMeleeAttackPerformed.performed -= OnMeleeAttackPerformed;
         }
 
         public void Initialize(IPlayerInputController inputs, Spine.Unity.SkeletonAnimation _skeletonAnimation)
@@ -68,6 +66,21 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             //{
             //    SoundManager.PlaySfx(_player.rangeAttackSound);
             //}
+        }
+
+        public void Enable()
+        {
+            _playerInputs.EnableAttack();
+            //_playerInputs.PlayerController.OnRangeAttackPerformed.Enable();
+            //_playerInputs.PlayerController.OnMeleeAttackPerformed.Enable();
+        }
+
+        public void Disable()
+        {
+            _playerInputs.DisableAttack();
+            //_playerInputs.PlayerController.OnRangeAttackPerformed.Disable();
+            //_playerInputs.PlayerController.OnMeleeAttackPerformed.Disable();
+            //_stateMachine.DropCurrentState();
         }
     }
 }

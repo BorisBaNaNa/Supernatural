@@ -1,16 +1,15 @@
-﻿using Assets.Supernatural.Scripts.Player.Controllers;
+﻿using Assets.Supernatural.Scripts.Player.Configs;
 using UnityEditorInternal;
 using UnityEngine;
 using static Assets.Supernatural.Scripts.Player.Controllers.PlayerMovementController;
 
 namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement
 {
-    public class IdleState : MovementStateBase
+    public class IdleState : SpineAnimationStateBase<PlayerMovementAnimationsReferences>
     {
-        private CachedMovementData _cachedMovement;
+        private readonly CachedMovementData _cachedMovement;
 
-        public IdleState(PlayerMovementAnimationsReferences animationsReferences,
-            CachedMovementData cachedData) : base(animationsReferences)
+        public IdleState(PlayerMovementAnimationsReferences animationsReferences, CachedMovementData cachedData) : base(animationsReferences)
         {
             _cachedMovement = cachedData;
         }
@@ -32,7 +31,7 @@ namespace Assets.Supernatural.Scripts.Player.AnimationStates.Movement
                 _switcher.StateSwitch<WalkState>();
         }
 
-        public static bool ItsMe(CachedMovementData cachedMovement) 
+        public static bool ItsMe(CachedMovementData cachedMovement)
             => Mathf.Abs(cachedMovement.Velocity.x) < 1f && cachedMovement.InputDir.x == 0;
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Spine.Unity;
 using UnityEngine;
 
-namespace Assets.Supernatural.Scripts.Player.Controllers
+namespace Assets.Supernatural.Scripts.Player.Configs
 {
     [CreateAssetMenu(fileName = "PlayerMovementAnimationsReferences", menuName = "Supernatural/Configs/Animations/PlayerMovementAnimationsReferences")]
     public class PlayerMovementAnimationsReferences : ScriptableObject

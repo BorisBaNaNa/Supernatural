@@ -5257,12 +5257,12 @@
 			},
 			"gun": {
 				"attachment": [
-					{}
+					{ "name": "gun" }
 				]
 			},
 			"knife": {
 				"attachment": [
-					{ "name": "knife" }
+					{ }
 				]
 			},
 			"vfx-cain_mark-cain_mark": {

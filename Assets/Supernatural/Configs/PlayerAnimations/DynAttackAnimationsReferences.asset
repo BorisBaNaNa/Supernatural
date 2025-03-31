@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94196e82b4eaf642bec176e7f094dcd, type: 3}
+  m_Name: DynAttackAnimationsReferences
+  m_EditorClassIdentifier: 
+  <MeleeAttackAnim>k__BackingField: {fileID: 11400000, guid: ce3d8aeab550dd6429c1e04dd7edf4c7, type: 2}
+  <RangeAttackAnim>k__BackingField: {fileID: 11400000, guid: 90e80adbf3881584d82b7d24f3cf31c9, type: 2}

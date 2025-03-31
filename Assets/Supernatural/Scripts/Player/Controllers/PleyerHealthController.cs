@@ -29,7 +29,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
                 OnDie?.Invoke();
         }
 
-        public void TakeHealth(int takenHearth)
+        public void TakeHealth(float takenHearth)
         {
             CurrentHealth = Mathf.Min(CurrentHealth + takenHearth, _maxHealth);
             ////////////GameManager.Instance.ShowFloatingText("+" + takenHearth, transform.position, Color.red);

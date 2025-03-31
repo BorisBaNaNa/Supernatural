@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3f740c40f794840a9cc14dd5e85f08, type: 3}
+  m_Name: SamMovementAnimationsReferences
+  m_EditorClassIdentifier: 
+  <Idle>k__BackingField: {fileID: 11400000, guid: 6d734aed2182c4847845e5502988c0cd, type: 2}
+  <Walk>k__BackingField: {fileID: 11400000, guid: cab7694cda360054a95b4847629a49cc, type: 2}
+  <Jump>k__BackingField: {fileID: 11400000, guid: 3a61fe0c38050064ba70e63b6a4f5c66, type: 2}
+  <Climb>k__BackingField: {fileID: 11400000, guid: d864e7c35f3f8844aafe7f0ff008f3c0, type: 2}
+  <ClimbIdle>k__BackingField: {fileID: 11400000, guid: f18d5d02a65a29a4ea70b7f58ec4f7f2, type: 2}

@@ -1,6 +1,7 @@
 ﻿using Assets.Supernatural.Scripts.AnimStateMachine;
 using Assets.Supernatural.Scripts.Interfaces;
 using Assets.Supernatural.Scripts.Player.AnimationStates.Movement;
+using Assets.Supernatural.Scripts.Player.Configs;
 using Assets.Supernatural.Scripts.Player.Controllers.Controller2D;
 using UnityEngine;
 
@@ -8,7 +9,9 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
 {
     public class PlayerMovementController : MonoBehaviour
     {
-        public bool IsClimbingOnWall => controller.collisions.hasWallAbove || controller.collisions.hasWallBelow;
+        public bool IsClimbingOnWall => _isEnabled 
+            && (controller.collisions.hasWallAbove || controller.collisions.hasWallBelow) 
+            && WallDirX == Mathf.Sign(transform.localScale.x);
 
         [Header("Moving")]
         [SerializeField] private float _flySpeed = 6f;
@@ -59,6 +62,7 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private IPlayerInputController _playerInputs;
         private float accelerationTimeAirborne = .2f;
         private float accelerationTimeGrounded = .1f;
+        private bool _isEnabled;
 
         private const int MAIN_ANIM_TRACK_INDEX = 1;
 
@@ -67,7 +71,12 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             if (!_isInit)
                 return;
 
-            _playerInputs.EnableMovement();
+            Enable();
+        }
+
+        public void OnDisable()
+        {
+            Disable();
         }
 
         public void Update()
@@ -81,11 +90,6 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
 
             _stateMachine.Update();
             SaveUpdateData();
-        }
-
-        public void OnDisable()
-        {
-            _playerInputs.DisableMovement();
         }
 
         private void OnDestroy()
@@ -107,8 +111,22 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
             _minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(_gravity) * _minJumpHeight);
 
             InitializeStateMachine(_skeletonAnimation);
-            _stateMachine.StateSwitch<IdleState>();
+            Enable();
             _isInit = true;
+        }
+
+        public void Enable()
+        {
+            _isEnabled = true;
+            _playerInputs.EnableMovement();
+            _stateMachine.StateSwitch<IdleState>();
+        }
+
+        public void Disable()
+        {
+            _isEnabled = false;
+            _playerInputs.DisableMovement();
+            _stateMachine.DropCurrentState();
         }
 
         public void SetDamageImpulse(Transform instigator)
@@ -135,10 +153,10 @@ namespace Assets.Supernatural.Scripts.Player.Controllers
         private void InitializeStateMachine(Spine.Unity.SkeletonAnimation _skeletonAnimation)
         {
             _stateMachine = new SpineStateMachine(_skeletonAnimation, MAIN_ANIM_TRACK_INDEX);
-            _stateMachine.AddState<IdleState>(new IdleState(_animationsReferences, _cachedMovementData));
-            _stateMachine.AddState<WalkState>(new WalkState(_animationsReferences, _cachedMovementData));
-            _stateMachine.AddState<JumpState>(new JumpState(_animationsReferences, _cachedMovementData));
-            _stateMachine.AddState<ClimbState>(new ClimbState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState(new IdleState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState(new WalkState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState(new JumpState(_animationsReferences, _cachedMovementData));
+            _stateMachine.AddState(new ClimbState(_animationsReferences, _cachedMovementData));
         }
 
         private void HandleInput()

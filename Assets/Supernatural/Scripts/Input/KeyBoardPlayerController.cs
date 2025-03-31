@@ -45,9 +45,17 @@ namespace Assets.Supernatural.Scripts.Input
             _inputs.Player.MeleeAttack.Disable();
         }
 
-        public void EnableMovement() => _inputs.Player.Move.Enable();
+        public void EnableMovement()
+        {
+            _inputs.Player.Move.Enable();
+            _inputs.Player.Jump.Enable();
+        }
 
-        public void DisableMovement() => _inputs.Player.Move.Disable();
+        public void DisableMovement()
+        {
+            _inputs.Player.Move.Disable();
+            _inputs.Player.Jump.Disable();
+        }
 
         public Vector2 ReadMovementInput() => _inputs.Player.Move.ReadValue<Vector2>();
 

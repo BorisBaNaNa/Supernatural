@@ -28,9 +28,15 @@ MonoBehaviour:
   skeletonDataModifiers: []
   fromAnimation:
   - dyn_scramble
+  - dyn_idle
+  - dyn_walk
   toAnimation:
   - dyn_scramble_idle
+  - dyn_damage
+  - dyn_damage
   duration:
   - 0.1
+  - 0
+  - 0
   defaultMix: 0.2
   controller: {fileID: 0}

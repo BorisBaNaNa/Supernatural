@@ -17,6 +17,12 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
             _curTrackId = currentTrackIndex;
         }
 
+        public override void DropCurrentState()
+        {
+            base.DropCurrentState();
+            Skeleton.AnimationState.SetEmptyAnimation(_curTrackId, 0f);
+        }
+
         public void SetAnimation(Spine.Animation animation, bool loop, bool hardSet = false)
         {
             if (!hardSet && TryGetCurrentTrack(out var currentAnimTrack) && !currentAnimTrack.Loop)
@@ -24,6 +30,8 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
             else
                 Skeleton.AnimationState.SetAnimation(_curTrackId, animation, loop);
         }
+
+        public void SetEmptyAnimation() => Skeleton.AnimationState.SetEmptyAnimation(_curTrackId, 0.1f);
 
         public void SetReverseToCurrentAnimation(bool reverse)
         {
@@ -35,7 +43,7 @@ namespace Assets.Supernatural.Scripts.AnimStateMachine
             currentAnimTrack.Reverse = reverse;
         }
 
-        private bool TryGetCurrentTrack(out TrackEntry currentAnimTrack)
+        public bool TryGetCurrentTrack(out TrackEntry currentAnimTrack)
         {
             currentAnimTrack = Skeleton.AnimationState.GetCurrent(_curTrackId);
             return currentAnimTrack != null;
